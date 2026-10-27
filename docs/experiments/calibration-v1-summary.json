@@ -1,0 +1,516 @@
+{
+ "generatedAt": "2026-10-19T15:12:57.534Z",
+ "seeds": [
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110
+ ],
+ "rule": "For each baseline, choose the threshold \u03c4 with the highest completion rate over all six scenarios; ties go to the lower false-arrival rate, then to the lower \u03c4.",
+ "selected": {
+  "single-frame": 0.9,
+  "persistence": 0.6
+ },
+ "detector": {
+  "name": "coco-ssd",
+  "packageVersion": "2.2.3",
+  "tfjsVersion": "4.22.0",
+  "base": "lite_mobilenet_v2",
+  "backend": "wasm",
+  "loadMs": 561.3999999999069
+ },
+ "backend": "wasm",
+ "rows": [
+  {
+   "variant": "persistence@0.5",
+   "trials": 60,
+   "completion": {
+    "num": 34,
+    "den": 60,
+    "value": 0.5666666666666667,
+    "ci95": [
+     0.44103214654694856,
+     0.6842779960559936
+    ],
+    "definition": "Trials with the correct terminal outcome (ARRIVED at the target if present; NOT_FOUND if absent) \u00f7 all trials (excluding aborted)."
+   },
+   "far": {
+    "num": 26,
+    "den": 34,
+    "value": 0.7647058823529411,
+    "ci95": [
+     0.6000353719173557,
+     0.8756316189075566
+    ],
+    "definition": "Trials that ended ARRIVED at a candidate that is not a 3-D potted plant \u00f7 trials in which at least one non-target candidate was opened (encountered)."
+   },
+   "ccr": {
+    "num": 34,
+    "den": 50,
+    "value": 0.68,
+    "ci95": [
+     0.5418944286372394,
+     0.792419559060006
+    ],
+    "definition": "Trials that ended ARRIVED at the 3-D potted plant \u00f7 trials in which a 3-D potted plant is present."
+   },
+   "abstention": {
+    "num": 0,
+    "den": 60,
+    "value": 0,
+    "ci95": [
+     0,
+     0.06017393047793289
+    ],
+    "definition": "Trials that ended UNRESOLVED (an engaged candidate stayed UNCONFIRMED) \u00f7 trials in which at least one candidate was opened."
+   }
+  },
+  {
+   "variant": "persistence@0.6",
+   "trials": 60,
+   "completion": {
+    "num": 37,
+    "den": 60,
+    "value": 0.6166666666666667,
+    "ci95": [
+     0.4901736454040315,
+     0.7291191041511176
+    ],
+    "definition": "Trials with the correct terminal outcome (ARRIVED at the target if present; NOT_FOUND if absent) \u00f7 all trials (excluding aborted)."
+   },
+   "far": {
+    "num": 23,
+    "den": 34,
+    "value": 0.6764705882352942,
+    "ci95": [
+     0.5084258404811939,
+     0.8086854867354143
+    ],
+    "definition": "Trials that ended ARRIVED at a candidate that is not a 3-D potted plant \u00f7 trials in which at least one non-target candidate was opened (encountered)."
+   },
+   "ccr": {
+    "num": 37,
+    "den": 50,
+    "value": 0.74,
+    "ci95": [
+     0.6044657801100008,
+     0.8412862034863262
+    ],
+    "definition": "Trials that ended ARRIVED at the 3-D potted plant \u00f7 trials in which a 3-D potted plant is present."
+   },
+   "abstention": {
+    "num": 0,
+    "den": 60,
+    "value": 0,
+    "ci95": [
+     0,
+     0.06017393047793289
+    ],
+    "definition": "Trials that ended UNRESOLVED (an engaged candidate stayed UNCONFIRMED) \u00f7 trials in which at least one candidate was opened."
+   }
+  },
+  {
+   "variant": "persistence@0.7",
+   "trials": 60,
+   "completion": {
+    "num": 35,
+    "den": 60,
+    "value": 0.5833333333333334,
+    "ci95": [
+     0.45727854313239624,
+     0.6993591351212818
+    ],
+    "definition": "Trials with the correct terminal outcome (ARRIVED at the target if present; NOT_FOUND if absent) \u00f7 all trials (excluding aborted)."
+   },
+   "far": {
+    "num": 23,
+    "den": 34,
+    "value": 0.6764705882352942,
+    "ci95": [
+     0.5084258404811939,
+     0.8086854867354143
+    ],
+    "definition": "Trials that ended ARRIVED at a candidate that is not a 3-D potted plant \u00f7 trials in which at least one non-target candidate was opened (encountered)."
+   },
+   "ccr": {
+    "num": 35,
+    "den": 50,
+    "value": 0.7,
+    "ci95": [
+     0.562493877226366,
+     0.8089661091039063
+    ],
+    "definition": "Trials that ended ARRIVED at the 3-D potted plant \u00f7 trials in which a 3-D potted plant is present."
+   },
+   "abstention": {
+    "num": 0,
+    "den": 60,
+    "value": 0,
+    "ci95": [
+     0,
+     0.06017393047793289
+    ],
+    "definition": "Trials that ended UNRESOLVED (an engaged candidate stayed UNCONFIRMED) \u00f7 trials in which at least one candidate was opened."
+   }
+  },
+  {
+   "variant": "persistence@0.8",
+   "trials": 60,
+   "completion": {
+    "num": 35,
+    "den": 60,
+    "value": 0.5833333333333334,
+    "ci95": [
+     0.45727854313239624,
+     0.6993591351212818
+    ],
+    "definition": "Trials with the correct terminal outcome (ARRIVED at the target if present; NOT_FOUND if absent) \u00f7 all trials (excluding aborted)."
+   },
+   "far": {
+    "num": 12,
+    "den": 34,
+    "value": 0.35294117647058826,
+    "ci95": [
+     0.21487714895296073,
+     0.5208634116998658
+    ],
+    "definition": "Trials that ended ARRIVED at a candidate that is not a 3-D potted plant \u00f7 trials in which at least one non-target candidate was opened (encountered)."
+   },
+   "ccr": {
+    "num": 31,
+    "den": 50,
+    "value": 0.62,
+    "ci95": [
+     0.4815019502239357,
+     0.7413740415742278
+    ],
+    "definition": "Trials that ended ARRIVED at the 3-D potted plant \u00f7 trials in which a 3-D potted plant is present."
+   },
+   "abstention": {
+    "num": 0,
+    "den": 60,
+    "value": 0,
+    "ci95": [
+     0,
+     0.06017393047793289
+    ],
+    "definition": "Trials that ended UNRESOLVED (an engaged candidate stayed UNCONFIRMED) \u00f7 trials in which at least one candidate was opened."
+   }
+  },
+  {
+   "variant": "single-frame@0.5",
+   "trials": 60,
+   "completion": {
+    "num": 41,
+    "den": 60,
+    "value": 0.6833333333333333,
+    "ci95": [
+     0.5576599505698345,
+     0.7869429415882567
+    ],
+    "definition": "Trials with the correct terminal outcome (ARRIVED at the target if present; NOT_FOUND if absent) \u00f7 all trials (excluding aborted)."
+   },
+   "far": {
+    "num": 19,
+    "den": 34,
+    "value": 0.5588235294117647,
+    "ci95": [
+     0.3945361778918369,
+     0.7111675978470325
+    ],
+    "definition": "Trials that ended ARRIVED at a candidate that is not a 3-D potted plant \u00f7 trials in which at least one non-target candidate was opened (encountered)."
+   },
+   "ccr": {
+    "num": 36,
+    "den": 50,
+    "value": 0.72,
+    "ci95": [
+     0.5833461285401034,
+     0.8252598564231963
+    ],
+    "definition": "Trials that ended ARRIVED at the 3-D potted plant \u00f7 trials in which a 3-D potted plant is present."
+   },
+   "abstention": {
+    "num": 0,
+    "den": 60,
+    "value": 0,
+    "ci95": [
+     0,
+     0.06017393047793289
+    ],
+    "definition": "Trials that ended UNRESOLVED (an engaged candidate stayed UNCONFIRMED) \u00f7 trials in which at least one candidate was opened."
+   }
+  },
+  {
+   "variant": "single-frame@0.6",
+   "trials": 60,
+   "completion": {
+    "num": 46,
+    "den": 60,
+    "value": 0.7666666666666667,
+    "ci95": [
+     0.6456348865960799,
+     0.8556056838156894
+    ],
+    "definition": "Trials with the correct terminal outcome (ARRIVED at the target if present; NOT_FOUND if absent) \u00f7 all trials (excluding aborted)."
+   },
+   "far": {
+    "num": 14,
+    "den": 34,
+    "value": 0.4117647058823529,
+    "ci95": [
+     0.26365737785688864,
+     0.5777869585348072
+    ],
+    "definition": "Trials that ended ARRIVED at a candidate that is not a 3-D potted plant \u00f7 trials in which at least one non-target candidate was opened (encountered)."
+   },
+   "ccr": {
+    "num": 40,
+    "den": 50,
+    "value": 0.8,
+    "ci95": [
+     0.6696262789551477,
+     0.8875637005402612
+    ],
+    "definition": "Trials that ended ARRIVED at the 3-D potted plant \u00f7 trials in which a 3-D potted plant is present."
+   },
+   "abstention": {
+    "num": 0,
+    "den": 60,
+    "value": 0,
+    "ci95": [
+     0,
+     0.06017393047793289
+    ],
+    "definition": "Trials that ended UNRESOLVED (an engaged candidate stayed UNCONFIRMED) \u00f7 trials in which at least one candidate was opened."
+   }
+  },
+  {
+   "variant": "single-frame@0.7",
+   "trials": 60,
+   "completion": {
+    "num": 52,
+    "den": 60,
+    "value": 0.8666666666666667,
+    "ci95": [
+     0.7583460540992789,
+     0.9308597302169036
+    ],
+    "definition": "Trials with the correct terminal outcome (ARRIVED at the target if present; NOT_FOUND if absent) \u00f7 all trials (excluding aborted)."
+   },
+   "far": {
+    "num": 8,
+    "den": 34,
+    "value": 0.23529411764705882,
+    "ci95": [
+     0.12436838109244344,
+     0.3999646280826443
+    ],
+    "definition": "Trials that ended ARRIVED at a candidate that is not a 3-D potted plant \u00f7 trials in which at least one non-target candidate was opened (encountered)."
+   },
+   "ccr": {
+    "num": 44,
+    "den": 50,
+    "value": 0.88,
+    "ci95": [
+     0.7619492111337642,
+     0.9438247628937535
+    ],
+    "definition": "Trials that ended ARRIVED at the 3-D potted plant \u00f7 trials in which a 3-D potted plant is present."
+   },
+   "abstention": {
+    "num": 0,
+    "den": 60,
+    "value": 0,
+    "ci95": [
+     0,
+     0.06017393047793289
+    ],
+    "definition": "Trials that ended UNRESOLVED (an engaged candidate stayed UNCONFIRMED) \u00f7 trials in which at least one candidate was opened."
+   }
+  },
+  {
+   "variant": "single-frame@0.8",
+   "trials": 60,
+   "completion": {
+    "num": 59,
+    "den": 60,
+    "value": 0.9833333333333333,
+    "ci95": [
+     0.9114466177322051,
+     0.9970519161391262
+    ],
+    "definition": "Trials with the correct terminal outcome (ARRIVED at the target if present; NOT_FOUND if absent) \u00f7 all trials (excluding aborted)."
+   },
+   "far": {
+    "num": 1,
+    "den": 34,
+    "value": 0.029411764705882353,
+    "ci95": [
+     0.00521077192559663,
+     0.1491590221634482
+    ],
+    "definition": "Trials that ended ARRIVED at a candidate that is not a 3-D potted plant \u00f7 trials in which at least one non-target candidate was opened (encountered)."
+   },
+   "ccr": {
+    "num": 49,
+    "den": 50,
+    "value": 0.98,
+    "ci95": [
+     0.8950431352816304,
+     0.9964608319110235
+    ],
+    "definition": "Trials that ended ARRIVED at the 3-D potted plant \u00f7 trials in which a 3-D potted plant is present."
+   },
+   "abstention": {
+    "num": 0,
+    "den": 60,
+    "value": 0,
+    "ci95": [
+     0,
+     0.06017393047793289
+    ],
+    "definition": "Trials that ended UNRESOLVED (an engaged candidate stayed UNCONFIRMED) \u00f7 trials in which at least one candidate was opened."
+   }
+  },
+  {
+   "variant": "single-frame@0.9",
+   "trials": 60,
+   "completion": {
+    "num": 59,
+    "den": 60,
+    "value": 0.9833333333333333,
+    "ci95": [
+     0.9114466177322051,
+     0.9970519161391262
+    ],
+    "definition": "Trials with the correct terminal outcome (ARRIVED at the target if present; NOT_FOUND if absent) \u00f7 all trials (excluding aborted)."
+   },
+   "far": {
+    "num": 0,
+    "den": 34,
+    "value": 0,
+    "ci95": [
+     0,
+     0.10151790621961015
+    ],
+    "definition": "Trials that ended ARRIVED at a candidate that is not a 3-D potted plant \u00f7 trials in which at least one non-target candidate was opened (encountered)."
+   },
+   "ccr": {
+    "num": 49,
+    "den": 50,
+    "value": 0.98,
+    "ci95": [
+     0.8950431352816304,
+     0.9964608319110235
+    ],
+    "definition": "Trials that ended ARRIVED at the 3-D potted plant \u00f7 trials in which a 3-D potted plant is present."
+   },
+   "abstention": {
+    "num": 0,
+    "den": 60,
+    "value": 0,
+    "ci95": [
+     0,
+     0.06017393047793289
+    ],
+    "definition": "Trials that ended UNRESOLVED (an engaged candidate stayed UNCONFIRMED) \u00f7 trials in which at least one candidate was opened."
+   }
+  },
+  {
+   "variant": "surestop",
+   "trials": 60,
+   "completion": {
+    "num": 56,
+    "den": 60,
+    "value": 0.9333333333333333,
+    "ci95": [
+     0.8407442010623228,
+     0.973771725856802
+    ],
+    "definition": "Trials with the correct terminal outcome (ARRIVED at the target if present; NOT_FOUND if absent) \u00f7 all trials (excluding aborted)."
+   },
+   "far": {
+    "num": 1,
+    "den": 34,
+    "value": 0.029411764705882353,
+    "ci95": [
+     0.00521077192559663,
+     0.1491590221634482
+    ],
+    "definition": "Trials that ended ARRIVED at a candidate that is not a 3-D potted plant \u00f7 trials in which at least one non-target candidate was opened (encountered)."
+   },
+   "ccr": {
+    "num": 48,
+    "den": 50,
+    "value": 0.96,
+    "ci95": [
+     0.8653966212204534,
+     0.9889613473391734
+    ],
+    "definition": "Trials that ended ARRIVED at the 3-D potted plant \u00f7 trials in which a 3-D potted plant is present."
+   },
+   "abstention": {
+    "num": 3,
+    "den": 60,
+    "value": 0.05,
+    "ci95": [
+     0.01714919117914121,
+     0.13700734625099836
+    ],
+    "definition": "Trials that ended UNRESOLVED (an engaged candidate stayed UNCONFIRMED) \u00f7 trials in which at least one candidate was opened."
+   }
+  },
+  {
+   "variant": "surestop-1view",
+   "trials": 60,
+   "completion": {
+    "num": 55,
+    "den": 60,
+    "value": 0.9166666666666666,
+    "ci95": [
+     0.8193083153188752,
+     0.9638800759495141
+    ],
+    "definition": "Trials with the correct terminal outcome (ARRIVED at the target if present; NOT_FOUND if absent) \u00f7 all trials (excluding aborted)."
+   },
+   "far": {
+    "num": 5,
+    "den": 34,
+    "value": 0.14705882352941177,
+    "ci95": [
+     0.06449346382626417,
+     0.30128388174051957
+    ],
+    "definition": "Trials that ended ARRIVED at a candidate that is not a 3-D potted plant \u00f7 trials in which at least one non-target candidate was opened (encountered)."
+   },
+   "ccr": {
+    "num": 45,
+    "den": 50,
+    "value": 0.9,
+    "ci95": [
+     0.7863950966521162,
+     0.956524876008429
+    ],
+    "definition": "Trials that ended ARRIVED at the 3-D potted plant \u00f7 trials in which a 3-D potted plant is present."
+   },
+   "abstention": {
+    "num": 0,
+    "den": 60,
+    "value": 0,
+    "ci95": [
+     0,
+     0.06017393047793289
+    ],
+    "definition": "Trials that ended UNRESOLVED (an engaged candidate stayed UNCONFIRMED) \u00f7 trials in which at least one candidate was opened."
+   }
+  }
+ ],
+ "note": "Calibration v1, commit 2c5200c (before the planner-ring fix, the not-reproducible rule and the photo-board scenario). Superseded by calibration v2; kept for transparency."
+}

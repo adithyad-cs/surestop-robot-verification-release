@@ -1,0 +1,1676 @@
+{
+ "note": "Verbatim RunRecord of the first observed SureStop false arrival at the 3-D look-alike (layout v2-04a6cf82). Copied unmodified from the 2026-10-20 v2 smoke matrix (v2-matrix-b.json.gz). Do not tune a fix against this case alone; see docs/LOOKALIKE_INVESTIGATION.md.",
+ "detector": {
+  "name": "coco-ssd",
+  "packageVersion": "2.2.3",
+  "tfjsVersion": "4.22.0",
+  "base": "lite_mobilenet_v2",
+  "backend": "wasm",
+  "loadMs": 741.2999999998137
+ },
+ "backend": {
+  "backend": "wasm",
+  "reason": "software WebGL detected; WASM is faster",
+  "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+ },
+ "run": {
+  "variant": "surestop",
+  "result": {
+   "schema": "surestop.mission/1",
+   "scenarioId": "lookalike-3d",
+   "seed": 123,
+   "method": "surestop",
+   "config": {
+    "targetClass": "potted plant",
+    "detectionFloor": 0.3,
+    "associationGate": 0.9,
+    "observeEvery": 1,
+    "linearSpeed": 0.5,
+    "angularSpeed": 90,
+    "captureTime": 0.2,
+    "standOff": 0.9,
+    "maxSimTime": 480,
+    "maxFrames": 160,
+    "singleFrame": {
+     "threshold": 0.9
+    },
+    "persistence": {
+     "threshold": 0.8,
+     "requiredHits": 3,
+     "window": 4,
+     "maxConsecutiveMisses": 3,
+     "step": 0.5,
+     "maxFrames": 10
+    },
+    "surestop": {
+     "evidence": {
+      "minScore": 0.4,
+      "minBoxW": 24,
+      "minBoxH": 32,
+      "minValidFraction": 0.6,
+      "maxExpectedNoise": 0.03,
+      "volumetricRelief": 0.06,
+      "flatRelief": 0.025,
+      "maxTwoPlaneFraction": 0.85
+     },
+     "cell": {
+      "rangeBin": 0.75,
+      "bearingBinDeg": 30
+     },
+     "requiredSupport": 2,
+     "requiredAgainst": 2,
+     "requiredMisses": 3,
+     "maxViewpoints": 4,
+     "confirmRange": 2.5
+    },
+    "planner": {
+     "ranges": [
+      1.9,
+      2.2
+     ],
+     "bearingStepDeg": 30,
+     "ownFootprint": 0.8,
+     "saturatingChangeDeg": 75,
+     "pathWeight": 0.12,
+     "closenessWeight": 0.3,
+     "cell": {
+      "rangeBin": 0.75,
+      "bearingBinDeg": 30
+     }
+    },
+    "method": "surestop"
+   },
+   "detector": {
+    "name": "coco-ssd",
+    "packageVersion": "2.2.3",
+    "tfjsVersion": "4.22.0",
+    "base": "lite_mobilenet_v2",
+    "backend": "wasm",
+    "loadMs": 741.2999999998137
+   },
+   "outcome": "ARRIVED",
+   "reason": "arrived 0.90 m from candidate C1 after CONFIRMED",
+   "confirmedTrackId": "C1",
+   "finalPose": {
+    "x": -1.5602956924841278,
+    "z": -3.6392872091517496,
+    "theta": -2.356194490192345
+   },
+   "tracks": [
+    {
+     "id": "C1",
+     "position": {
+      "x": -2.197,
+      "y": 0.334,
+      "z": -4.276
+     },
+     "createdAt": 30.372546021661847,
+     "createdFrame": 16,
+     "decidedAt": 45.73171970319075,
+     "status": "CONFIRMED",
+     "decision": {
+      "status": "CONFIRMED",
+      "reason": "volumetric evidence from 2 distinct viewpoints, no flat evidence; closest supporting view 1.85 m",
+      "support": 2,
+      "against": 0,
+      "distinctViews": 3,
+      "attempts": 2
+     },
+     "evidence": [
+      {
+       "frameId": 16,
+       "t": 30.372546021661847,
+       "cell": "r2:b3",
+       "range": 1.8474502824356487,
+       "bearingDeg": 95.59821030257149,
+       "verdict": "VOLUMETRIC",
+       "reason": "surface relief 117 mm above noise (≥ 60 mm)",
+       "counted": true,
+       "score": 0.8377031087875366,
+       "excessRelief": 0.11744602526083867,
+       "expectedNoise": 0.022930029882846613
+      },
+      {
+       "frameId": 17,
+       "t": 36.803788754563826,
+       "cell": "r2:b5",
+       "range": 1.8735085488606231,
+       "bearingDeg": 169.36012577139553,
+       "verdict": "INCONCLUSIVE",
+       "reason": "relief explained by two flat surfaces (97% of points): possible occluder or corner",
+       "counted": true,
+       "score": 0.36065173149108887,
+       "excessRelief": 0.0633999478415167,
+       "expectedNoise": 0.028516244198656074
+      },
+      {
+       "frameId": 18,
+       "t": 45.73171970319075,
+       "cell": "r2:b1",
+       "range": 1.8758432026894347,
+       "bearingDeg": 44.99719547700772,
+       "verdict": "VOLUMETRIC",
+       "reason": "surface relief 111 mm above noise (≥ 60 mm)",
+       "counted": true,
+       "score": 0.6677966117858887,
+       "excessRelief": 0.1111526699846158,
+       "expectedNoise": 0.02854083357907098
+      }
+     ],
+     "observations": 3,
+     "maxScore": 0.8377
+    }
+   ],
+   "frames": [
+    {
+     "frameId": 1,
+     "t": 2.2,
+     "pose": [
+      -5.671,
+      1.955,
+      1.5578
+     ],
+     "purpose": "search",
+     "focusTrackId": null,
+     "detections": [],
+     "targets": [],
+     "inferenceMs": 104.6,
+     "cached": false
+    },
+    {
+     "frameId": 2,
+     "t": 4.4,
+     "pose": [
+      -5.622,
+      2.954,
+      1.5578
+     ],
+     "purpose": "search",
+     "focusTrackId": null,
+     "detections": [],
+     "targets": [],
+     "inferenceMs": 102.3,
+     "cached": false
+    },
+    {
+     "frameId": 3,
+     "t": 5.49,
+     "pose": [
+      -5.6,
+      3.4,
+      1.5578
+     ],
+     "purpose": "search",
+     "focusTrackId": null,
+     "detections": [],
+     "targets": [],
+     "inferenceMs": 126.7,
+     "cached": false
+    },
+    {
+     "frameId": 4,
+     "t": 9.66,
+     "pose": [
+      -5.566,
+      2.401,
+      -1.5363
+     ],
+     "purpose": "search",
+     "focusTrackId": null,
+     "detections": [],
+     "targets": [],
+     "inferenceMs": 111.9,
+     "cached": false
+    },
+    {
+     "frameId": 5,
+     "t": 11.86,
+     "pose": [
+      -5.531,
+      1.401,
+      -1.5363
+     ],
+     "purpose": "search",
+     "focusTrackId": null,
+     "detections": [
+      {
+       "cls": "person",
+       "score": 0.4851,
+       "bbox": [
+        575,
+        185.3,
+        47.9,
+        52.8
+       ]
+      }
+     ],
+     "targets": [],
+     "inferenceMs": 101.6,
+     "cached": false
+    },
+    {
+     "frameId": 6,
+     "t": 14.06,
+     "pose": [
+      -5.497,
+      0.402,
+      -1.5363
+     ],
+     "purpose": "search",
+     "focusTrackId": null,
+     "detections": [],
+     "targets": [],
+     "inferenceMs": 103,
+     "cached": false
+    },
+    {
+     "frameId": 7,
+     "t": 16.26,
+     "pose": [
+      -5.462,
+      -0.598,
+      -1.5363
+     ],
+     "purpose": "search",
+     "focusTrackId": null,
+     "detections": [],
+     "targets": [],
+     "inferenceMs": 106,
+     "cached": false
+    },
+    {
+     "frameId": 8,
+     "t": 18.46,
+     "pose": [
+      -5.428,
+      -1.597,
+      -1.5363
+     ],
+     "purpose": "search",
+     "focusTrackId": null,
+     "detections": [],
+     "targets": [],
+     "inferenceMs": 122.2,
+     "cached": false
+    },
+    {
+     "frameId": 9,
+     "t": 20.27,
+     "pose": [
+      -5.4,
+      -2.4,
+      -1.5363
+     ],
+     "purpose": "search",
+     "focusTrackId": null,
+     "detections": [
+      {
+       "cls": "umbrella",
+       "score": 0.6564,
+       "bbox": [
+        96.6,
+        291.4,
+        444.6,
+        183.4
+       ]
+      }
+     ],
+     "targets": [],
+     "inferenceMs": 102.3,
+     "cached": false
+    },
+    {
+     "frameId": 10,
+     "t": 20.49,
+     "pose": [
+      -5.4,
+      -2.4,
+      -1.5708
+     ],
+     "purpose": "scan",
+     "focusTrackId": null,
+     "detections": [
+      {
+       "cls": "umbrella",
+       "score": 0.7093,
+       "bbox": [
+        124.5,
+        294.5,
+        436.3,
+        181.2
+       ]
+      }
+     ],
+     "targets": [],
+     "inferenceMs": 110,
+     "cached": false
+    },
+    {
+     "frameId": 11,
+     "t": 21.36,
+     "pose": [
+      -5.4,
+      -2.4,
+      -0.5236
+     ],
+     "purpose": "scan",
+     "focusTrackId": null,
+     "detections": [
+      {
+       "cls": "vase",
+       "score": 0.5689,
+       "bbox": [
+        315.7,
+        231.8,
+        31.5,
+        52.9
+       ]
+      }
+     ],
+     "targets": [],
+     "inferenceMs": 122.1,
+     "cached": false
+    },
+    {
+     "frameId": 12,
+     "t": 22.23,
+     "pose": [
+      -5.4,
+      -2.4,
+      0.5236
+     ],
+     "purpose": "scan",
+     "focusTrackId": null,
+     "detections": [
+      {
+       "cls": "chair",
+       "score": 0.3189,
+       "bbox": [
+        591.4,
+        169.5,
+        51.4,
+        52.3
+       ]
+      }
+     ],
+     "targets": [],
+     "inferenceMs": 144.6,
+     "cached": false
+    },
+    {
+     "frameId": 13,
+     "t": 24.8,
+     "pose": [
+      -4.402,
+      -2.467,
+      -0.0666
+     ],
+     "purpose": "search",
+     "focusTrackId": null,
+     "detections": [
+      {
+       "cls": "bench",
+       "score": 0.5969,
+       "bbox": [
+        12.9,
+        262.2,
+        628.7,
+        215.4
+       ]
+      }
+     ],
+     "targets": [],
+     "inferenceMs": 115.9,
+     "cached": false
+    },
+    {
+     "frameId": 14,
+     "t": 27,
+     "pose": [
+      -3.404,
+      -2.533,
+      -0.0666
+     ],
+     "purpose": "search",
+     "focusTrackId": null,
+     "detections": [
+      {
+       "cls": "bench",
+       "score": 0.4311,
+       "bbox": [
+        6.6,
+        20,
+        618.2,
+        453.4
+       ]
+      }
+     ],
+     "targets": [],
+     "inferenceMs": 127.4,
+     "cached": false
+    },
+    {
+     "frameId": 15,
+     "t": 29.21,
+     "pose": [
+      -2.4,
+      -2.6,
+      -0.0666
+     ],
+     "purpose": "search",
+     "focusTrackId": null,
+     "detections": [],
+     "targets": [],
+     "inferenceMs": 98.3,
+     "cached": false
+    },
+    {
+     "frameId": 16,
+     "t": 30.37,
+     "pose": [
+      -2.4,
+      -2.6,
+      -1.5708
+     ],
+     "purpose": "scan",
+     "focusTrackId": null,
+     "detections": [
+      {
+       "cls": "potted plant",
+       "score": 0.8377,
+       "bbox": [
+        287.8,
+        252.6,
+        160.1,
+        189.5
+       ]
+      }
+     ],
+     "targets": [
+      {
+       "score": 0.8377,
+       "bbox": [
+        287.8,
+        252.6,
+        160.1,
+        189.5
+       ],
+       "excessRelief": 0.1174,
+       "expectedNoise": 0.0229,
+       "twoPlaneFraction": 0.747,
+       "range": 2.287,
+       "position": [
+        -2.22,
+        -4.439
+       ],
+       "trackId": "C1",
+       "note": "VOLUMETRIC: surface relief 117 mm above noise (≥ 60 mm)"
+      }
+     ],
+     "inferenceMs": 145.5,
+     "cached": false
+    },
+    {
+     "frameId": 17,
+     "t": 36.8,
+     "pose": [
+      -4.055,
+      -3.947,
+      -0.2618
+     ],
+     "purpose": "verify",
+     "focusTrackId": "C1",
+     "detections": [
+      {
+       "cls": "dining table",
+       "score": 0.6286,
+       "bbox": [
+        130.6,
+        275.7,
+        512.2,
+        199.4
+       ]
+      },
+      {
+       "cls": "vase",
+       "score": 0.4427,
+       "bbox": [
+        283.9,
+        338.4,
+        23.8,
+        59.3
+       ]
+      },
+      {
+       "cls": "potted plant",
+       "score": 0.3607,
+       "bbox": [
+        357.6,
+        258.6,
+        77.7,
+        125.8
+       ]
+      }
+     ],
+     "targets": [
+      {
+       "score": 0.3607,
+       "bbox": [
+        357.6,
+        258.6,
+        77.7,
+        125.8
+       ],
+       "excessRelief": 0.0634,
+       "expectedNoise": 0.0285,
+       "twoPlaneFraction": 0.968,
+       "range": 2.575,
+       "position": [
+        -2.208,
+        -4.147
+       ],
+       "trackId": "C1",
+       "note": "INCONCLUSIVE: relief explained by two flat surfaces (97% of points): possible occluder or corner"
+      }
+     ],
+     "inferenceMs": 131.1,
+     "cached": false
+    },
+    {
+     "frameId": 18,
+     "t": 45.73,
+     "pose": [
+      -0.87,
+      -2.949,
+      -2.3562
+     ],
+     "purpose": "verify",
+     "focusTrackId": "C1",
+     "detections": [
+      {
+       "cls": "potted plant",
+       "score": 0.6678,
+       "bbox": [
+        253.7,
+        250,
+        132.4,
+        143.8
+       ]
+      }
+     ],
+     "targets": [
+      {
+       "score": 0.6678,
+       "bbox": [
+        253.7,
+        250,
+        132.4,
+        143.8
+       ],
+       "excessRelief": 0.1112,
+       "expectedNoise": 0.0285,
+       "twoPlaneFraction": 0.82,
+       "range": 2.576,
+       "position": [
+        -2.163,
+        -4.241
+       ],
+       "trackId": "C1",
+       "note": "VOLUMETRIC: surface relief 111 mm above noise (≥ 60 mm)"
+      }
+     ],
+     "inferenceMs": 118.1,
+     "cached": false
+    },
+    {
+     "frameId": 19,
+     "t": 47.88,
+     "pose": [
+      -1.56,
+      -3.639,
+      -2.3562
+     ],
+     "purpose": "arrival",
+     "focusTrackId": "C1",
+     "detections": [],
+     "targets": [],
+     "inferenceMs": 166.2,
+     "cached": false
+    }
+   ],
+   "events": [
+    {
+     "t": 0,
+     "kind": "mission",
+     "from": "SEARCHING",
+     "message": "mission started: surestop, target class \"potted plant\""
+    },
+    {
+     "t": 30.37,
+     "frameId": 16,
+     "kind": "candidate",
+     "trackId": "C1",
+     "to": "PENDING",
+     "message": "candidate C1 opened at (-2.22, -4.44)"
+    },
+    {
+     "t": 30.37,
+     "kind": "mission",
+     "trackId": "C1",
+     "from": "SCANNING",
+     "to": "VERIFYING",
+     "message": "candidate C1: re-observe from r2:b5 (new viewpoint 69° from earlier views at 1.9 m; 2.1 m travel)"
+    },
+    {
+     "t": 36.8,
+     "kind": "mission",
+     "trackId": "C1",
+     "from": "VERIFYING",
+     "to": "VERIFYING",
+     "message": "candidate C1: re-observe from r2:b1 (new viewpoint 51° from earlier views at 1.9 m; 3.3 m travel)"
+    },
+    {
+     "t": 45.73,
+     "frameId": 18,
+     "kind": "candidate",
+     "trackId": "C1",
+     "from": "PENDING",
+     "to": "CONFIRMED",
+     "message": "candidate C1 CONFIRMED: volumetric evidence from 2 distinct viewpoints, no flat evidence; closest supporting view 1.85 m"
+    },
+    {
+     "t": 45.73,
+     "kind": "mission",
+     "trackId": "C1",
+     "from": "VERIFYING",
+     "to": "APPROACHING",
+     "message": "approaching CONFIRMED candidate C1"
+    },
+    {
+     "t": 47.88,
+     "kind": "mission",
+     "to": "ARRIVED",
+     "message": "mission ARRIVED: arrived 0.90 m from candidate C1 after CONFIRMED"
+    }
+   ],
+   "trajectory": [
+    [
+     0,
+     -5.72,
+     0.956,
+     1.558
+    ],
+    [
+     0.3,
+     -5.712,
+     1.106,
+     1.558
+    ],
+    [
+     0.6,
+     -5.705,
+     1.256,
+     1.558
+    ],
+    [
+     0.9,
+     -5.698,
+     1.405,
+     1.558
+    ],
+    [
+     1.2,
+     -5.69,
+     1.555,
+     1.558
+    ],
+    [
+     1.5,
+     -5.683,
+     1.705,
+     1.558
+    ],
+    [
+     1.8,
+     -5.676,
+     1.855,
+     1.558
+    ],
+    [
+     2.3,
+     -5.668,
+     2.005,
+     1.558
+    ],
+    [
+     2.6,
+     -5.661,
+     2.155,
+     1.558
+    ],
+    [
+     2.9,
+     -5.654,
+     2.304,
+     1.558
+    ],
+    [
+     3.2,
+     -5.646,
+     2.454,
+     1.558
+    ],
+    [
+     3.5,
+     -5.639,
+     2.604,
+     1.558
+    ],
+    [
+     3.8,
+     -5.632,
+     2.754,
+     1.558
+    ],
+    [
+     4.1,
+     -5.624,
+     2.904,
+     1.558
+    ],
+    [
+     4.5,
+     -5.619,
+     3.004,
+     1.558
+    ],
+    [
+     4.8,
+     -5.612,
+     3.153,
+     1.558
+    ],
+    [
+     5.1,
+     -5.605,
+     3.303,
+     1.558
+    ],
+    [
+     5.59,
+     -5.6,
+     3.4,
+     1.401
+    ],
+    [
+     5.89,
+     -5.6,
+     3.4,
+     0.929
+    ],
+    [
+     6.19,
+     -5.6,
+     3.4,
+     0.458
+    ],
+    [
+     6.49,
+     -5.6,
+     3.4,
+     -0.013
+    ],
+    [
+     6.79,
+     -5.6,
+     3.4,
+     -0.484
+    ],
+    [
+     7.09,
+     -5.6,
+     3.4,
+     -0.955
+    ],
+    [
+     7.39,
+     -5.6,
+     3.4,
+     -1.427
+    ],
+    [
+     7.66,
+     -5.597,
+     3.3,
+     -1.536
+    ],
+    [
+     7.96,
+     -5.591,
+     3.15,
+     -1.536
+    ],
+    [
+     8.26,
+     -5.586,
+     3,
+     -1.536
+    ],
+    [
+     8.56,
+     -5.581,
+     2.85,
+     -1.536
+    ],
+    [
+     8.86,
+     -5.576,
+     2.7,
+     -1.536
+    ],
+    [
+     9.16,
+     -5.571,
+     2.551,
+     -1.536
+    ],
+    [
+     9.46,
+     -5.566,
+     2.401,
+     -1.536
+    ],
+    [
+     9.76,
+     -5.564,
+     2.351,
+     -1.536
+    ],
+    [
+     10.06,
+     -5.559,
+     2.201,
+     -1.536
+    ],
+    [
+     10.36,
+     -5.553,
+     2.051,
+     -1.536
+    ],
+    [
+     10.66,
+     -5.548,
+     1.901,
+     -1.536
+    ],
+    [
+     10.96,
+     -5.543,
+     1.751,
+     -1.536
+    ],
+    [
+     11.26,
+     -5.538,
+     1.601,
+     -1.536
+    ],
+    [
+     11.56,
+     -5.533,
+     1.451,
+     -1.536
+    ],
+    [
+     11.96,
+     -5.529,
+     1.351,
+     -1.536
+    ],
+    [
+     12.26,
+     -5.524,
+     1.201,
+     -1.536
+    ],
+    [
+     12.56,
+     -5.519,
+     1.051,
+     -1.536
+    ],
+    [
+     12.86,
+     -5.514,
+     0.901,
+     -1.536
+    ],
+    [
+     13.16,
+     -5.509,
+     0.752,
+     -1.536
+    ],
+    [
+     13.46,
+     -5.504,
+     0.602,
+     -1.536
+    ],
+    [
+     13.76,
+     -5.498,
+     0.452,
+     -1.536
+    ],
+    [
+     14.16,
+     -5.495,
+     0.352,
+     -1.536
+    ],
+    [
+     14.46,
+     -5.49,
+     0.202,
+     -1.536
+    ],
+    [
+     14.76,
+     -5.485,
+     0.052,
+     -1.536
+    ],
+    [
+     15.06,
+     -5.479,
+     -0.098,
+     -1.536
+    ],
+    [
+     15.36,
+     -5.474,
+     -0.248,
+     -1.536
+    ],
+    [
+     15.66,
+     -5.469,
+     -0.398,
+     -1.536
+    ],
+    [
+     15.96,
+     -5.464,
+     -0.548,
+     -1.536
+    ],
+    [
+     16.36,
+     -5.46,
+     -0.648,
+     -1.536
+    ],
+    [
+     16.66,
+     -5.455,
+     -0.798,
+     -1.536
+    ],
+    [
+     16.96,
+     -5.45,
+     -0.947,
+     -1.536
+    ],
+    [
+     17.26,
+     -5.445,
+     -1.097,
+     -1.536
+    ],
+    [
+     17.56,
+     -5.44,
+     -1.247,
+     -1.536
+    ],
+    [
+     17.86,
+     -5.435,
+     -1.397,
+     -1.536
+    ],
+    [
+     18.16,
+     -5.429,
+     -1.547,
+     -1.536
+    ],
+    [
+     18.56,
+     -5.426,
+     -1.647,
+     -1.536
+    ],
+    [
+     18.86,
+     -5.421,
+     -1.797,
+     -1.536
+    ],
+    [
+     19.16,
+     -5.416,
+     -1.947,
+     -1.536
+    ],
+    [
+     19.46,
+     -5.41,
+     -2.097,
+     -1.536
+    ],
+    [
+     19.76,
+     -5.405,
+     -2.247,
+     -1.536
+    ],
+    [
+     20.06,
+     -5.4,
+     -2.397,
+     -1.536
+    ],
+    [
+     20.59,
+     -5.4,
+     -2.4,
+     -1.414
+    ],
+    [
+     20.89,
+     -5.4,
+     -2.4,
+     -0.942
+    ],
+    [
+     21.16,
+     -5.4,
+     -2.4,
+     -0.524
+    ],
+    [
+     21.46,
+     -5.4,
+     -2.4,
+     -0.367
+    ],
+    [
+     21.76,
+     -5.4,
+     -2.4,
+     0.105
+    ],
+    [
+     22.03,
+     -5.4,
+     -2.4,
+     0.524
+    ],
+    [
+     22.33,
+     -5.4,
+     -2.4,
+     0.367
+    ],
+    [
+     22.6,
+     -5.4,
+     -2.4,
+     -0.067
+    ],
+    [
+     22.9,
+     -5.25,
+     -2.41,
+     -0.067
+    ],
+    [
+     23.2,
+     -5.101,
+     -2.42,
+     -0.067
+    ],
+    [
+     23.5,
+     -4.951,
+     -2.43,
+     -0.067
+    ],
+    [
+     23.8,
+     -4.801,
+     -2.44,
+     -0.067
+    ],
+    [
+     24.1,
+     -4.652,
+     -2.45,
+     -0.067
+    ],
+    [
+     24.4,
+     -4.502,
+     -2.46,
+     -0.067
+    ],
+    [
+     24.9,
+     -4.352,
+     -2.47,
+     -0.067
+    ],
+    [
+     25.2,
+     -4.203,
+     -2.48,
+     -0.067
+    ],
+    [
+     25.5,
+     -4.053,
+     -2.49,
+     -0.067
+    ],
+    [
+     25.8,
+     -3.903,
+     -2.5,
+     -0.067
+    ],
+    [
+     26.1,
+     -3.754,
+     -2.51,
+     -0.067
+    ],
+    [
+     26.4,
+     -3.604,
+     -2.52,
+     -0.067
+    ],
+    [
+     26.7,
+     -3.454,
+     -2.53,
+     -0.067
+    ],
+    [
+     27.1,
+     -3.355,
+     -2.536,
+     -0.067
+    ],
+    [
+     27.4,
+     -3.205,
+     -2.546,
+     -0.067
+    ],
+    [
+     27.7,
+     -3.055,
+     -2.556,
+     -0.067
+    ],
+    [
+     28,
+     -2.906,
+     -2.566,
+     -0.067
+    ],
+    [
+     28.3,
+     -2.756,
+     -2.576,
+     -0.067
+    ],
+    [
+     28.6,
+     -2.606,
+     -2.586,
+     -0.067
+    ],
+    [
+     28.9,
+     -2.457,
+     -2.596,
+     -0.067
+    ],
+    [
+     29.31,
+     -2.4,
+     -2.6,
+     -0.224
+    ],
+    [
+     29.61,
+     -2.4,
+     -2.6,
+     -0.695
+    ],
+    [
+     29.91,
+     -2.4,
+     -2.6,
+     -1.166
+    ],
+    [
+     30.17,
+     -2.4,
+     -2.6,
+     -1.571
+    ],
+    [
+     30.47,
+     -2.4,
+     -2.6,
+     -1.728
+    ],
+    [
+     30.77,
+     -2.4,
+     -2.6,
+     -2.199
+    ],
+    [
+     31.04,
+     -2.439,
+     -2.632,
+     -2.458
+    ],
+    [
+     31.34,
+     -2.555,
+     -2.726,
+     -2.458
+    ],
+    [
+     31.64,
+     -2.671,
+     -2.821,
+     -2.458
+    ],
+    [
+     31.94,
+     -2.788,
+     -2.916,
+     -2.458
+    ],
+    [
+     32.24,
+     -2.904,
+     -3.01,
+     -2.458
+    ],
+    [
+     32.54,
+     -3.02,
+     -3.105,
+     -2.458
+    ],
+    [
+     32.84,
+     -3.137,
+     -3.2,
+     -2.458
+    ],
+    [
+     33.14,
+     -3.253,
+     -3.294,
+     -2.458
+    ],
+    [
+     33.44,
+     -3.37,
+     -3.389,
+     -2.458
+    ],
+    [
+     33.74,
+     -3.486,
+     -3.484,
+     -2.458
+    ],
+    [
+     34.04,
+     -3.602,
+     -3.578,
+     -2.458
+    ],
+    [
+     34.34,
+     -3.719,
+     -3.673,
+     -2.458
+    ],
+    [
+     34.64,
+     -3.835,
+     -3.768,
+     -2.458
+    ],
+    [
+     34.94,
+     -3.951,
+     -3.862,
+     -2.458
+    ],
+    [
+     35.21,
+     -4.055,
+     -3.947,
+     -2.458
+    ],
+    [
+     35.51,
+     -4.055,
+     -3.947,
+     -1.987
+    ],
+    [
+     35.81,
+     -4.055,
+     -3.947,
+     -1.516
+    ],
+    [
+     36.11,
+     -4.055,
+     -3.947,
+     -1.045
+    ],
+    [
+     36.41,
+     -4.055,
+     -3.947,
+     -0.574
+    ],
+    [
+     36.9,
+     -4.055,
+     -3.947,
+     -0.105
+    ],
+    [
+     37.16,
+     -4.055,
+     -3.947,
+     0.304
+    ],
+    [
+     37.46,
+     -3.912,
+     -3.902,
+     0.304
+    ],
+    [
+     37.76,
+     -3.769,
+     -3.857,
+     0.304
+    ],
+    [
+     38.06,
+     -3.626,
+     -3.812,
+     0.304
+    ],
+    [
+     38.36,
+     -3.482,
+     -3.768,
+     0.304
+    ],
+    [
+     38.66,
+     -3.339,
+     -3.723,
+     0.304
+    ],
+    [
+     38.96,
+     -3.196,
+     -3.678,
+     0.304
+    ],
+    [
+     39.26,
+     -3.053,
+     -3.633,
+     0.304
+    ],
+    [
+     39.56,
+     -2.91,
+     -3.588,
+     0.304
+    ],
+    [
+     39.86,
+     -2.767,
+     -3.543,
+     0.304
+    ],
+    [
+     40.16,
+     -2.624,
+     -3.499,
+     0.304
+    ],
+    [
+     40.46,
+     -2.48,
+     -3.454,
+     0.304
+    ],
+    [
+     40.76,
+     -2.337,
+     -3.409,
+     0.304
+    ],
+    [
+     41.06,
+     -2.194,
+     -3.364,
+     0.304
+    ],
+    [
+     41.36,
+     -2.051,
+     -3.319,
+     0.304
+    ],
+    [
+     41.66,
+     -1.908,
+     -3.274,
+     0.304
+    ],
+    [
+     41.96,
+     -1.765,
+     -3.229,
+     0.304
+    ],
+    [
+     42.26,
+     -1.622,
+     -3.185,
+     0.304
+    ],
+    [
+     42.56,
+     -1.478,
+     -3.14,
+     0.304
+    ],
+    [
+     42.86,
+     -1.335,
+     -3.095,
+     0.304
+    ],
+    [
+     43.16,
+     -1.192,
+     -3.05,
+     0.304
+    ],
+    [
+     43.46,
+     -1.049,
+     -3.005,
+     0.304
+    ],
+    [
+     43.76,
+     -0.906,
+     -2.96,
+     0.304
+    ],
+    [
+     44.04,
+     -0.87,
+     -2.949,
+     -0.011
+    ],
+    [
+     44.34,
+     -0.87,
+     -2.949,
+     -0.482
+    ],
+    [
+     44.64,
+     -0.87,
+     -2.949,
+     -0.953
+    ],
+    [
+     44.94,
+     -0.87,
+     -2.949,
+     -1.424
+    ],
+    [
+     45.24,
+     -0.87,
+     -2.949,
+     -1.896
+    ],
+    [
+     45.53,
+     -0.87,
+     -2.949,
+     -2.356
+    ],
+    [
+     45.83,
+     -0.906,
+     -2.985,
+     -2.356
+    ],
+    [
+     46.13,
+     -1.012,
+     -3.091,
+     -2.356
+    ],
+    [
+     46.43,
+     -1.118,
+     -3.197,
+     -2.356
+    ],
+    [
+     46.73,
+     -1.224,
+     -3.303,
+     -2.356
+    ],
+    [
+     47.03,
+     -1.33,
+     -3.409,
+     -2.356
+    ],
+    [
+     47.33,
+     -1.436,
+     -3.515,
+     -2.356
+    ],
+    [
+     47.63,
+     -1.542,
+     -3.621,
+     -2.356
+    ]
+   ],
+   "stats": {
+    "simTime": 47.88,
+    "pathLength": 17.7,
+    "frames": 19,
+    "verificationFrames": 2,
+    "inferenceMsTotal": 2259.8,
+    "cachedFrames": 0,
+    "marginViolations": 0,
+    "wallClockMs": 14455
+   }
+  },
+  "score": {
+   "scenarioId": "lookalike-3d",
+   "seed": 123,
+   "method": "surestop",
+   "outcome": "ARRIVED",
+   "targetPresent": true,
+   "arrivedAtKind": "lookalike",
+   "arrivedAtObject": "vase",
+   "correctArrival": false,
+   "falseArrival": true,
+   "abstained": false,
+   "navFailure": false,
+   "verificationInitiated": true,
+   "nonTargetEncountered": true,
+   "targetEncountered": false,
+   "correctTerminal": false,
+   "trackLabels": [
+    {
+     "trackId": "C1",
+     "objectId": "vase",
+     "kind": "lookalike",
+     "label": "vase with flowers",
+     "distance": 0.06,
+     "status": "CONFIRMED"
+    }
+   ],
+   "simTime": 47.88,
+   "pathLength": 17.7,
+   "frames": 19,
+   "verificationFrames": 2,
+   "decisionDelay": 17.51
+  },
+  "layout": {
+   "version": "v2",
+   "id": "v2-04a6cf82"
+  }
+ }
+}

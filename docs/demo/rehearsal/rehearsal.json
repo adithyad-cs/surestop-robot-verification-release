@@ -1,0 +1,185 @@
+{
+ "baseUrl": "http://localhost:3200",
+ "browser": "Chromium 153.0.8010.12",
+ "startedAt": "2026-10-27T15:26:07.728Z",
+ "steps": [
+  {
+   "step": "A first run",
+   "url": "/console?scenario=lookalike-3d&seed=123&method=surestop&layout=v2",
+   "scenario": "3-D look-alike (known limitation)",
+   "method": "SureStop (multi-view evidence)",
+   "seed": "123",
+   "layoutId": "v2-04a6cf82",
+   "phase": "DONE",
+   "simTime": "47.9 s",
+   "frames": "19",
+   "outcome": "ARRIVED",
+   "outcomeReason": "arrived 0.90 m from candidate C1 after CONFIRMED",
+   "candidates": [
+    "C1 ● CONFIRMED 3 views"
+   ],
+   "evaluator": "False arrival",
+   "evaluatorLabels": "C1 → vase with flowers (lookalike, CONFIRMED)",
+   "C1": "C1 volumetric evidence from 2 distinct viewpoints, no flat evidence; closest supporting view 1.85 m",
+   "screenshot": "A-surestop-seed123-false-arrival.png",
+   "evaluatorScreenshot": "A-surestop-seed123-evaluator.png"
+  },
+  {
+   "step": "A run again",
+   "outcome": "ARRIVED",
+   "evaluator": "False arrival",
+   "evaluatorLabels": "C1 → vase with flowers (lookalike, CONFIRMED)",
+   "candidates": [
+    "C1 ● CONFIRMED 3 views"
+   ],
+   "frames": "19",
+   "simTime": "47.9 s",
+   "sameAsFirst": true
+  },
+  {
+   "step": "A reset",
+   "phase": "READY",
+   "frames": "0",
+   "outcome": null,
+   "candidates": [],
+   "noCandidateText": true,
+   "errors": []
+  },
+  {
+   "step": "B run",
+   "url": "/console?scenario=lookalike-3d&seed=123&method=surestop-identity&layout=v2",
+   "scenario": "3-D look-alike (known limitation)",
+   "method": "SureStop + identity-conflict check (experimental)",
+   "seed": "123",
+   "layoutId": "v2-04a6cf82",
+   "phase": "DONE",
+   "simTime": "69.3 s",
+   "frames": "29",
+   "outcome": "ARRIVED",
+   "outcomeReason": "arrived 0.90 m from candidate C2 after CONFIRMED",
+   "candidates": [
+    "C1 ◌ UNCONFIRMED 0 views",
+    "C2 ● CONFIRMED 3 views"
+   ],
+   "evaluator": "Correct arrival",
+   "evaluatorLabels": "C1 → vase with flowers (lookalike, UNCONFIRMED) C2 → potted plant (3-D) (target, CONFIRMED)",
+   "C2": "C2 volumetric evidence from 2 distinct viewpoints, no flat evidence; closest supporting view 1.78 m",
+   "C1": "C1 identity conflict: the detector also reported \"vase\" (0.57) 0.46 m from this candidate (frame 11); confirmation withheld (0 volumetric views so far)",
+   "identityConflicts": "Identity conflicts DETECTOR (experimental check: a conflict withholds confirmation, never rejects) #11 “vase” 0.57 at 0.46 m · withheld confirmation",
+   "screenshot": "B-identity-seed123-C1-withheld.png",
+   "evaluatorScreenshot": "B-identity-seed123-evaluator.png"
+  },
+  {
+   "step": "B trace",
+   "poseNow": "x 4.00 z 0.86 θ 164°",
+   "captureRow": "x -5.40 z -2.40 θ -30° (capture)",
+   "captureLabel": "11",
+   "cameraImage": "Robot camera frame 11 with detector boxes",
+   "frameConflicts": "C1 “vase” 0.57 range 4.58 m identity conflict: localised at this candidate (detector names it as another class)",
+   "screenshot": "B-identity-seed123-frame11-capture-pose.png"
+  },
+  {
+   "step": "B newest frame",
+   "nextPresses": 18,
+   "captureRowCount": 0,
+   "errors": []
+  },
+  {
+   "step": "C single-frame",
+   "url": "/console?scenario=photo-board-decoy&seed=17&method=single-frame&layout=v2",
+   "scenario": "Life-size photo board first",
+   "method": "Single-frame threshold",
+   "seed": "17",
+   "layoutId": "v2-60cecb85",
+   "phase": "DONE",
+   "simTime": "20.8 s",
+   "frames": "7",
+   "outcome": "ARRIVED",
+   "outcomeReason": "arrived 0.90 m from candidate C1 after CONFIRMED",
+   "candidates": [
+    "C1 ● CONFIRMED 3 views"
+   ],
+   "evaluator": "False arrival",
+   "evaluatorLabels": "C1 → life-size photo board of a potted plant (picture-decoy, CONFIRMED)",
+   "C1": "C1 single frame: detector score 0.93 ≥ 0.9",
+   "screenshot": "C-single-frame-seed17-false-arrival.png",
+   "evaluatorScreenshot": "C-single-frame-seed17-evaluator.png"
+  },
+  {
+   "step": "C surestop-identity via dropdown",
+   "url": "/console?scenario=photo-board-decoy&seed=17&method=surestop-identity&layout=v2",
+   "scenario": "Life-size photo board first",
+   "method": "SureStop + identity-conflict check (experimental)",
+   "seed": "17",
+   "layoutId": "v2-60cecb85",
+   "phase": "DONE",
+   "simTime": "90.0 s",
+   "frames": "28",
+   "outcome": "ARRIVED",
+   "outcomeReason": "arrived 0.90 m from candidate C2 after CONFIRMED",
+   "candidates": [
+    "C1 ✕ REJECTED 4 views",
+    "C2 ● CONFIRMED 3 views"
+   ],
+   "evaluator": "Correct arrival",
+   "evaluatorLabels": "C1 → life-size photo board of a potted plant (picture-decoy, REJECTED) C2 → potted plant (3-D) (target, CONFIRMED)",
+   "C2": "C2 volumetric evidence from 2 distinct viewpoints, no flat evidence; closest supporting view 1.78 m",
+   "C1": "C1 flat-surface evidence from 2 distinct viewpoints, no volumetric evidence (picture-like candidate)",
+   "C1evidence": [
+    "Evidence for candidate C1",
+    "FRAME RANGE SCORE RELIEF VERDICT",
+    "#4 6.33 0.59 0 mm inconclusive",
+    "#5 1.90 miss — not re-detected",
+    "#6 1.89 0.98 0 mm flat",
+    "#7 1.92 0.99 0 mm flat"
+   ],
+   "screenshot": "C-identity-seed17-board-rejected.png",
+   "evaluatorScreenshot": "C-identity-seed17-evaluator.png",
+   "errors": []
+  },
+  {
+   "step": "navigation",
+   "enterSystemOpens": "/console",
+   "methodPage": {
+    "matrix": true,
+    "singleFrame": true,
+    "surestop": true,
+    "identity": true,
+    "notSignificant": true,
+    "notIdentitySystem": true,
+    "decoyExposure": true
+   },
+   "lab": 200,
+   "unknownRoute": 404,
+   "errors": []
+  },
+  {
+   "step": "bad layout parameter",
+   "phase": "error",
+   "alert": "Something failed Unknown world layout \"v9\". Use layout=v1 (recorded evaluation) or layout=v2 (seeded variation). No simulated or fake output is substituted. Try a current desktop Chrome, Edge or Firefox. Reload | "
+  },
+  {
+   "step": "model download blocked",
+   "phase": "error",
+   "alert": "Something failed Failed to fetch No simulated or fake output is substituted. Try a current desktop Chrome, Edge or Firefox. Reload | ",
+   "screenshot": "E-model-blocked.png"
+  },
+  {
+   "step": "reload mid-mission",
+   "phaseBefore": "RUNNING",
+   "framesBefore": "3",
+   "phaseAfterReload": "ready",
+   "framesAfterReload": "0",
+   "methodAfterReload": "SureStop + identity-conflict check (experimental)",
+   "rerunOutcome": "ARRIVED",
+   "rerunEvaluator": "Correct arrival",
+   "rerunEvaluatorLabels": "C1 → vase with flowers (lookalike, UNCONFIRMED) C2 → potted plant (3-D) (target, CONFIRMED)",
+   "rerunCandidates": [
+    "C1 ◌ UNCONFIRMED 0 views",
+    "C2 ● CONFIRMED 3 views"
+   ],
+   "errors": []
+  }
+ ],
+ "finishedAt": "2026-10-27T15:32:06.036Z"
+}

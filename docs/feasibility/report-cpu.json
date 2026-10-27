@@ -1,0 +1,2172 @@
+{
+ "startedAt": "2026-10-19T13:54:18.933Z",
+ "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.37 Safari/537.36",
+ "detector": {
+  "name": "coco-ssd",
+  "packageVersion": "2.2.3",
+  "tfjsVersion": "4.22.0",
+  "base": "lite_mobilenet_v2",
+  "backend": "cpu",
+  "loadMs": 3363.5
+ },
+ "camera": {
+  "width": 640,
+  "height": 480,
+  "vfovDeg": 50,
+  "near": 0.05,
+  "far": 30,
+  "heightM": 1,
+  "pitchDeg": -10
+ },
+ "webgl": {
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "vendor": "Google Inc. (Google)"
+ },
+ "records": [
+  {
+   "id": "plant-obj-d1.2-az0",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 1.2,
+   "angleDeg": 0,
+   "gtClass": "potted plant",
+   "gtBox": [
+    72.95802529630706,
+    166.04118677382897,
+    494.08394940738594,
+    313.95881322617106
+   ],
+   "detections": [
+    {
+     "cls": "umbrella",
+     "score": 0.6247614622116089,
+     "bbox": [
+      386.05403900146484,
+      308.76577377319336,
+      149.03350830078125,
+      137.9640769958496
+     ]
+    },
+    {
+     "cls": "potted plant",
+     "score": 0.3231968879699707,
+     "bbox": [
+      128.89902114868164,
+      173.8619327545166,
+      384.6706199645996,
+      302.93758392333984
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.3231968879699707,
+    "iou": 0.7512227821529667,
+    "bbox": [
+     128.89902114868164,
+     173.8619327545166,
+     384.6706199645996,
+     302.93758392333984
+    ]
+   },
+   "depictedBest": 0.3231968879699707,
+   "inferenceMs": 3785.899999999907,
+   "renderMs": 1513.6000000000931,
+   "depthClean": {
+    "samples": 1739,
+    "validFraction": 1,
+    "medianDepth": 1.372627854347229,
+    "centroidCam": [
+     0.03348946049261125,
+     -0.29388115801626663,
+     2.0827572235024614
+    ],
+    "planeRms": 0.19196094676026373,
+    "expectedNoise": 0.00953642890611951,
+    "excessRelief": 0.1917239202729157,
+    "offPlaneFraction": 0.8970672800460034,
+    "depthSpread": 2.862259030342102,
+    "planeIncidenceDeg": 83.94421501949991,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 1739,
+    "validFraction": 1,
+    "medianDepth": 1.3710049390792847,
+    "centroidCam": [
+     0.03325807675539904,
+     -0.2937358622840041,
+     2.0828126663788766
+    ],
+    "planeRms": 0.19193406394592408,
+    "expectedNoise": 0.009518618171919173,
+    "excessRelief": 0.19169788942733637,
+    "offPlaneFraction": 0.8976423231742381,
+    "depthSpread": 2.80499005317688,
+    "planeIncidenceDeg": 83.91753830042408,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d1.2-az60",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 1.2,
+   "angleDeg": 60,
+   "gtClass": "potted plant",
+   "gtBox": [
+    121.27694793667622,
+    164.52086987173433,
+    456.8925020190915,
+    315.47913012826564
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.8056471347808838,
+     "bbox": [
+      159.72529411315918,
+      172.91377544403076,
+      283.64636421203613,
+      303.41392993927
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.8056471347808838,
+    "iou": 0.5970738779156618,
+    "bbox": [
+     159.72529411315918,
+     172.91377544403076,
+     283.64636421203613,
+     303.41392993927
+    ]
+   },
+   "depictedBest": 0.8056471347808838,
+   "inferenceMs": 3753.8000000000466,
+   "renderMs": 494.60000000009313,
+   "depthClean": {
+    "samples": 1978,
+    "validFraction": 1,
+    "medianDepth": 1.2766220569610596,
+    "centroidCam": [
+     -0.04925552969735551,
+     -0.24700928795889085,
+     1.9949423550836236
+    ],
+    "planeRms": 0.1613605794147251,
+    "expectedNoise": 0.008519055505277947,
+    "excessRelief": 0.1611355400970059,
+    "offPlaneFraction": 0.833164812942366,
+    "depthSpread": 3.344073474407196,
+    "planeIncidenceDeg": 83.19058406603007,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 1978,
+    "validFraction": 1,
+    "medianDepth": 1.276594877243042,
+    "centroidCam": [
+     -0.04935548554058606,
+     -0.24708366083235003,
+     1.9959899316663328
+    ],
+    "planeRms": 0.16155857556360867,
+    "expectedNoise": 0.00851877792241271,
+    "excessRelief": 0.16133382708177124,
+    "offPlaneFraction": 0.8346814964610718,
+    "depthSpread": 3.4099074602127075,
+    "planeIncidenceDeg": 83.20008005472472,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d1.2-az120",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 1.2,
+   "angleDeg": 120,
+   "gtClass": "potted plant",
+   "gtBox": [
+    61.83055004423242,
+    164.52086987173436,
+    456.8925020190914,
+    315.47913012826564
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.9653874635696411,
+     "bbox": [
+      166.39801025390625,
+      192.97648429870605,
+      305.0706100463867,
+      285.15981674194336
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.9653874635696411,
+    "iou": 0.6035371834400032,
+    "bbox": [
+     166.39801025390625,
+     192.97648429870605,
+     305.0706100463867,
+     285.15981674194336
+    ]
+   },
+   "depictedBest": 0.9653874635696411,
+   "inferenceMs": 3624.1999999999534,
+   "renderMs": 447.5,
+   "depthClean": {
+    "samples": 2068,
+    "validFraction": 1,
+    "medianDepth": 1.431694746017456,
+    "centroidCam": [
+     -0.013613320508708598,
+     -0.3286497018410344,
+     1.9276190045608543
+    ],
+    "planeRms": 0.1565126849031198,
+    "expectedNoise": 0.010198999383095951,
+    "excessRelief": 0.15618002736319028,
+    "offPlaneFraction": 0.905705996131528,
+    "depthSpread": 2.364401340484619,
+    "planeIncidenceDeg": 84.16963317896769,
+    "truncated": true
+   },
+   "depthNoisy": {
+    "samples": 2068,
+    "validFraction": 1,
+    "medianDepth": 1.4309091567993164,
+    "centroidCam": [
+     -0.013516574495957995,
+     -0.3287058728066665,
+     1.9271174383924363
+    ],
+    "planeRms": 0.1564520020927177,
+    "expectedNoise": 0.010190004060048524,
+    "excessRelief": 0.1561198026391141,
+    "offPlaneFraction": 0.9076402321083172,
+    "depthSpread": 2.3989017009735107,
+    "planeIncidenceDeg": 84.1965516160022,
+    "truncated": true
+   }
+  },
+  {
+   "id": "plant-obj-d1.2-az180",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 1.2,
+   "angleDeg": 180,
+   "gtClass": "potted plant",
+   "gtBox": [
+    72.95802529630706,
+    166.04118677382897,
+    494.08394940738606,
+    313.95881322617106
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.8903234004974365,
+     "bbox": [
+      154.72030639648438,
+      163.8640594482422,
+      341.605224609375,
+      310.84333419799805
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.8903234004974365,
+    "iou": 0.6764924526409958,
+    "bbox": [
+     154.72030639648438,
+     163.8640594482422,
+     341.605224609375,
+     310.84333419799805
+    ]
+   },
+   "depictedBest": 0.8903234004974365,
+   "inferenceMs": 3103.0999999998603,
+   "renderMs": 406,
+   "depthClean": {
+    "samples": 2444,
+    "validFraction": 1,
+    "medianDepth": 1.2317731380462646,
+    "centroidCam": [
+     -0.014933366884304985,
+     -0.22937925759765154,
+     1.6806448445626445
+    ],
+    "planeRms": 0.17640707414252976,
+    "expectedNoise": 0.008069060254449369,
+    "excessRelief": 0.17622243351553757,
+    "offPlaneFraction": 0.9063011456628478,
+    "depthSpread": 2.078437924385071,
+    "planeIncidenceDeg": 83.88701118197658,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 2444,
+    "validFraction": 1,
+    "medianDepth": 1.2296010255813599,
+    "centroidCam": [
+     -0.015128386311888753,
+     -0.22948762693160382,
+     1.6821192551264006
+    ],
+    "planeRms": 0.17659170383794923,
+    "expectedNoise": 0.008047674728442929,
+    "excessRelief": 0.17640823335619898,
+    "offPlaneFraction": 0.9063011456628478,
+    "depthSpread": 2.0919950008392334,
+    "planeIncidenceDeg": 83.89966830590873,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d1.2-az240",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 1.2,
+   "angleDeg": 240,
+   "gtClass": "potted plant",
+   "gtBox": [
+    121.27694793667604,
+    164.52086987173436,
+    456.89250201909147,
+    315.47913012826564
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.9372333884239197,
+     "bbox": [
+      207.1893310546875,
+      207.11162567138672,
+      284.3815612792969,
+      268.6641311645508
+     ]
+    },
+    {
+     "cls": "bench",
+     "score": 0.2935537099838257,
+     "bbox": [
+      -1.3330078125,
+      224.214506149292,
+      267.94910430908203,
+      254.7920036315918
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.9372333884239197,
+    "iou": 0.5300617389674012,
+    "bbox": [
+     207.1893310546875,
+     207.11162567138672,
+     284.3815612792969,
+     268.6641311645508
+    ]
+   },
+   "depictedBest": 0.9372333884239197,
+   "inferenceMs": 2910.1999999999534,
+   "renderMs": 429.60000000009313,
+   "depthClean": {
+    "samples": 1763,
+    "validFraction": 1,
+    "medianDepth": 1.118457555770874,
+    "centroidCam": [
+     0.09702614903042539,
+     -0.2667400801496982,
+     1.496389690780261
+    ],
+    "planeRms": 0.12151631871617691,
+    "expectedNoise": 0.007003789216243831,
+    "excessRelief": 0.1213143134627811,
+    "offPlaneFraction": 0.8650028360748724,
+    "depthSpread": 2.029514193534851,
+    "planeIncidenceDeg": 83.11500719446835,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 1763,
+    "validFraction": 1,
+    "medianDepth": 1.1221442222595215,
+    "centroidCam": [
+     0.09698707042465456,
+     -0.26669383032552435,
+     1.4965469946728738
+    ],
+    "planeRms": 0.12151978149737552,
+    "expectedNoise": 0.007036830622201706,
+    "excessRelief": 0.1213158699839569,
+    "offPlaneFraction": 0.8638684061259218,
+    "depthSpread": 2.043967545032501,
+    "planeIncidenceDeg": 83.11887074378242,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d1.2-az300",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 1.2,
+   "angleDeg": 300,
+   "gtClass": "potted plant",
+   "gtBox": [
+    61.830550044232275,
+    164.52086987173433,
+    456.89250201909147,
+    315.47913012826564
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.8275257349014282,
+     "bbox": [
+      165.3540802001953,
+      181.09723091125488,
+      366.96380615234375,
+      294.55135345458984
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.8275257349014282,
+    "iou": 0.702593487884635,
+    "bbox": [
+     165.3540802001953,
+     181.09723091125488,
+     366.96380615234375,
+     294.55135345458984
+    ]
+   },
+   "depictedBest": 0.8275257349014282,
+   "inferenceMs": 3539.8000000000466,
+   "renderMs": 528.4000000001397,
+   "depthClean": {
+    "samples": 2520,
+    "validFraction": 1,
+    "medianDepth": 1.124335765838623,
+    "centroidCam": [
+     0.1526177174408407,
+     -0.24976407037786205,
+     1.8616050223745997
+    ],
+    "planeRms": 0.1557164361328036,
+    "expectedNoise": 0.007056523657375692,
+    "excessRelief": 0.15555646549010554,
+    "offPlaneFraction": 0.9087301587301587,
+    "depthSpread": 3.5197256207466125,
+    "planeIncidenceDeg": 82.69262993661512,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 2520,
+    "validFraction": 1,
+    "medianDepth": 1.1242425441741943,
+    "centroidCam": [
+     0.15269674605293704,
+     -0.24981276016688975,
+     1.8614021530227056
+    ],
+    "planeRms": 0.15573583283321193,
+    "expectedNoise": 0.007055685192525061,
+    "excessRelief": 0.1555759201634948,
+    "offPlaneFraction": 0.9091269841269841,
+    "depthSpread": 3.555819272994995,
+    "planeIncidenceDeg": 82.69705301757267,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d2-az0",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 2,
+   "angleDeg": 0,
+   "gtClass": "potted plant",
+   "gtBox": [
+    193.64285821734785,
+    160.3964052456354,
+    252.71428356530424,
+    282.84078949579816
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.9865760207176208,
+     "bbox": [
+      205.78811645507812,
+      156.53241634368896,
+      241.67190551757812,
+      273.4503221511841
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.9865760207176208,
+    "iou": 0.8919677066618487,
+    "bbox": [
+     205.78811645507812,
+     156.53241634368896,
+     241.67190551757812,
+     273.4503221511841
+    ]
+   },
+   "depictedBest": 0.9865760207176208,
+   "inferenceMs": 3991.899999999907,
+   "renderMs": 397.79999999981374,
+   "depthClean": {
+    "samples": 2744,
+    "validFraction": 1,
+    "medianDepth": 1.9020463228225708,
+    "centroidCam": [
+     0.04764269507075877,
+     -0.21375614235214888,
+     2.6664041862456513
+    ],
+    "planeRms": 0.17518909430190183,
+    "expectedNoise": 0.016471120856651453,
+    "excessRelief": 0.17441307559941208,
+    "offPlaneFraction": 0.8123177842565598,
+    "depthSpread": 3.2567261457443237,
+    "planeIncidenceDeg": 82.71721546144938,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 2744,
+    "validFraction": 1,
+    "medianDepth": 1.901910424232483,
+    "centroidCam": [
+     0.04762904109116976,
+     -0.2137927607576999,
+     2.6658720881528826
+    ],
+    "planeRms": 0.17538095219634248,
+    "expectedNoise": 0.016469053047216735,
+    "excessRelief": 0.17460598124068868,
+    "offPlaneFraction": 0.8152332361516035,
+    "depthSpread": 3.247658371925354,
+    "planeIncidenceDeg": 82.71352064794098,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d2-az60",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 2,
+   "angleDeg": 60,
+   "gtClass": "potted plant",
+   "gtBox": [
+    194.6709527349333,
+    159.70533675745833,
+    271.9503264711309,
+    311.5920509156091
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.9614279270172119,
+     "bbox": [
+      213.8082504272461,
+      157.23785877227783,
+      185.17440795898438,
+      262.37441539764404
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.9614279270172119,
+    "iou": 0.5649206003960242,
+    "bbox": [
+     213.8082504272461,
+     157.23785877227783,
+     185.17440795898438,
+     262.37441539764404
+    ]
+   },
+   "depictedBest": 0.9614279270172119,
+   "inferenceMs": 3653.8000000000466,
+   "renderMs": 413,
+   "depthClean": {
+    "samples": 2052,
+    "validFraction": 0.9975633528265108,
+    "medianDepth": 1.91340172290802,
+    "centroidCam": [
+     -0.05944431771085661,
+     -0.18378868594505768,
+     2.6380665680811237
+    ],
+    "planeRms": 0.1669403918070626,
+    "expectedNoise": 0.01664442461290952,
+    "excessRelief": 0.1661085715608943,
+    "offPlaneFraction": 0.844162188568637,
+    "depthSpread": 3.42645001411438,
+    "planeIncidenceDeg": 82.46360994196394,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 2052,
+    "validFraction": 0.9946393762183235,
+    "medianDepth": 1.9136909246444702,
+    "centroidCam": [
+     -0.06051677083563111,
+     -0.1856231022437551,
+     2.620115243646808
+    ],
+    "planeRms": 0.1664114951520421,
+    "expectedNoise": 0.01664885182026643,
+    "excessRelief": 0.16557657277466803,
+    "offPlaneFraction": 0.8417442430181283,
+    "depthSpread": 3.3740071058273315,
+    "planeIncidenceDeg": 82.5134211376816,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d2-az120",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 2,
+   "angleDeg": 120,
+   "gtClass": "potted plant",
+   "gtBox": [
+    173.378720793936,
+    159.70533675745833,
+    271.95032647113084,
+    311.5920509156091
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.9955346584320068,
+     "bbox": [
+      189.0933609008789,
+      172.2948932647705,
+      230.88253021240234,
+      233.75547409057617
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.9955346584320068,
+    "iou": 0.6369083004829078,
+    "bbox": [
+     189.0933609008789,
+     172.2948932647705,
+     230.88253021240234,
+     233.75547409057617
+    ]
+   },
+   "depictedBest": 0.9955346584320068,
+   "inferenceMs": 3553.600000000093,
+   "renderMs": 404.30000000004657,
+   "depthClean": {
+    "samples": 2256,
+    "validFraction": 1,
+    "medianDepth": 2.1229405403137207,
+    "centroidCam": [
+     -0.1054889780323631,
+     -0.21629517234112372,
+     2.9145611525110318
+    ],
+    "planeRms": 0.15543036161365817,
+    "expectedNoise": 0.02002750615083005,
+    "excessRelief": 0.15413466939248616,
+    "offPlaneFraction": 0.6919326241134752,
+    "depthSpread": 3.5095545053482056,
+    "planeIncidenceDeg": 82.68801718782952,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 2256,
+    "validFraction": 1,
+    "medianDepth": 2.1221988201141357,
+    "centroidCam": [
+     -0.1056015021255317,
+     -0.216247137217772,
+     2.916939598607256
+    ],
+    "planeRms": 0.15545719317645787,
+    "expectedNoise": 0.020014911328375323,
+    "excessRelief": 0.15416336216760393,
+    "offPlaneFraction": 0.6923758865248227,
+    "depthSpread": 3.5737820863723755,
+    "planeIncidenceDeg": 82.7043043497544,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d2-az180",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 2,
+   "angleDeg": 180,
+   "gtClass": "potted plant",
+   "gtBox": [
+    193.64285821734785,
+    160.3964052456354,
+    252.71428356530436,
+    282.8407894957983
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.9896676540374756,
+     "bbox": [
+      219.27656173706055,
+      158.82883071899414,
+      208.48459243774414,
+      249.48200225830078
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.9896676540374756,
+    "iou": 0.7198180919230271,
+    "bbox": [
+     219.27656173706055,
+     158.82883071899414,
+     208.48459243774414,
+     249.48200225830078
+    ]
+   },
+   "depictedBest": 0.9896676540374756,
+   "inferenceMs": 4019.5,
+   "renderMs": 342.80000000004657,
+   "depthClean": {
+    "samples": 2193,
+    "validFraction": 1,
+    "medianDepth": 2.018657684326172,
+    "centroidCam": [
+     0.003290319116280248,
+     -0.18730629881020638,
+     2.5431452464470294
+    ],
+    "planeRms": 0.18166555038525678,
+    "expectedNoise": 0.018299915385956413,
+    "excessRelief": 0.1807414874721493,
+    "offPlaneFraction": 0.8458732330141359,
+    "depthSpread": 2.6530044078826904,
+    "planeIncidenceDeg": 85.75318925240038,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 2193,
+    "validFraction": 1,
+    "medianDepth": 2.017998456954956,
+    "centroidCam": [
+     0.003344832239688463,
+     -0.18726603726041485,
+     2.5431763705085304
+    ],
+    "planeRms": 0.18166449731644918,
+    "expectedNoise": 0.018289271089090335,
+    "excessRelief": 0.18074150643465361,
+    "offPlaneFraction": 0.8445052439580484,
+    "depthSpread": 2.6429266929626465,
+    "planeIncidenceDeg": 85.73526098894389,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d2-az240",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 2,
+   "angleDeg": 240,
+   "gtClass": "potted plant",
+   "gtBox": [
+    194.6709527349331,
+    159.70533675745833,
+    271.9503264711309,
+    311.5920509156092
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.9837279915809631,
+     "bbox": [
+      227.84351348876953,
+      162.0825719833374,
+      204.6612548828125,
+      231.26408100128174
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.9837279915809631,
+    "iou": 0.5585574689961529,
+    "bbox": [
+     227.84351348876953,
+     162.0825719833374,
+     204.6612548828125,
+     231.26408100128174
+    ]
+   },
+   "depictedBest": 0.9837279915809631,
+   "inferenceMs": 3642.1999999999534,
+   "renderMs": 381.19999999995343,
+   "depthClean": {
+    "samples": 1974,
+    "validFraction": 0.9964539007092199,
+    "medianDepth": 1.9913787841796875,
+    "centroidCam": [
+     0.0546458912206282,
+     -0.15723786706759763,
+     2.5492381610177044
+    ],
+    "planeRms": 0.17104564895983626,
+    "expectedNoise": 0.017862357848323886,
+    "excessRelief": 0.1701104059138945,
+    "offPlaneFraction": 0.8500254194204372,
+    "depthSpread": 2.835383892059326,
+    "planeIncidenceDeg": 84.33502210386298,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 1974,
+    "validFraction": 0.9954407294832827,
+    "medianDepth": 1.9959666728973389,
+    "centroidCam": [
+     0.05470013595111798,
+     -0.15785850374317917,
+     2.5426903389185744
+    ],
+    "planeRms": 0.1706953777837368,
+    "expectedNoise": 0.01793553183726749,
+    "excessRelief": 0.16975048952638397,
+    "offPlaneFraction": 0.8498727735368957,
+    "depthSpread": 2.8707315921783447,
+    "planeIncidenceDeg": 84.39810227610062,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d2-az300",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 2,
+   "angleDeg": 300,
+   "gtClass": "potted plant",
+   "gtBox": [
+    173.37872079393583,
+    159.70533675745833,
+    271.9503264711309,
+    311.5920509156091
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.9672637581825256,
+     "bbox": [
+      229.44881439208984,
+      158.57691764831543,
+      206.3373565673828,
+      247.14534759521484
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.9672637581825256,
+    "iou": 0.5974137545386136,
+    "bbox": [
+     229.44881439208984,
+     158.57691764831543,
+     206.3373565673828,
+     247.14534759521484
+    ]
+   },
+   "depictedBest": 0.9672637581825256,
+   "inferenceMs": 3236,
+   "renderMs": 372.70000000018626,
+   "depthClean": {
+    "samples": 2100,
+    "validFraction": 0.9933333333333333,
+    "medianDepth": 1.8939789533615112,
+    "centroidCam": [
+     0.08916166753698632,
+     -0.16061155785762396,
+     2.652632979852927
+    ],
+    "planeRms": 0.17050356566255123,
+    "expectedNoise": 0.01634862510310546,
+    "excessRelief": 0.16971796711274273,
+    "offPlaneFraction": 0.8441994247363375,
+    "depthSpread": 3.4546074867248535,
+    "planeIncidenceDeg": 83.41114629454533,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 2100,
+    "validFraction": 0.9928571428571429,
+    "medianDepth": 1.8955469131469727,
+    "centroidCam": [
+     0.08886529285033269,
+     -0.16097161517353356,
+     2.6491186877234663
+    ],
+    "planeRms": 0.17041657065561935,
+    "expectedNoise": 0.01637239239976407,
+    "excessRelief": 0.16962827689135396,
+    "offPlaneFraction": 0.8460431654676259,
+    "depthSpread": 3.498581647872925,
+    "planeIncidenceDeg": 83.4302205580895,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d3-az0",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 3,
+   "angleDeg": 0,
+   "gtClass": "potted plant",
+   "gtBox": [
+    241.54894827302488,
+    157.09801372129687,
+    156.90210345395022,
+    181.33426881480779
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.8339149951934814,
+     "bbox": [
+      250.8496856689453,
+      165.1288890838623,
+      150.57540893554688,
+      165.8880615234375
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.8339149951934814,
+    "iou": 0.8459226600353213,
+    "bbox": [
+     250.8496856689453,
+     165.1288890838623,
+     150.57540893554688,
+     165.8880615234375
+    ]
+   },
+   "depictedBest": 0.8339149951934814,
+   "inferenceMs": 3035.0999999998603,
+   "renderMs": 328.39999999990687,
+   "depthClean": {
+    "samples": 2397,
+    "validFraction": 0.933249895702962,
+    "medianDepth": 2.8577420711517334,
+    "centroidCam": [
+     0.031474517158412485,
+     -0.052517385673914306,
+     3.5949676178585594
+    ],
+    "planeRms": 0.15499237205814317,
+    "expectedNoise": 0.0346667589809224,
+    "excessRelief": 0.1510657182088925,
+    "offPlaneFraction": 0.5610192221725525,
+    "depthSpread": 3.393310785293579,
+    "planeIncidenceDeg": 85.82242532285271,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 2397,
+    "validFraction": 0.932415519399249,
+    "medianDepth": 2.862445592880249,
+    "centroidCam": [
+     0.03169483952189517,
+     -0.052898372525661284,
+     3.5934302478295312
+    ],
+    "planeRms": 0.15515081604297914,
+    "expectedNoise": 0.03477437908879825,
+    "excessRelief": 0.15120356569139137,
+    "offPlaneFraction": 0.5601789709172259,
+    "depthSpread": 3.416808605194092,
+    "planeIncidenceDeg": 85.84640018118301,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d3-az60",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 3,
+   "angleDeg": 60,
+   "gtClass": "potted plant",
+   "gtBox": [
+    234.25568335554684,
+    156.74896701818048,
+    180.94726190527282,
+    192.9207471307802
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.7068377733230591,
+     "bbox": [
+      256.4708137512207,
+      165.94611167907715,
+      111.35908126831055,
+      154.60229873657227
+     ]
+    },
+    {
+     "cls": "bench",
+     "score": 0.5284675359725952,
+     "bbox": [
+      -34.239253997802734,
+      198.57507705688477,
+      693.6409568786621,
+      286.10424041748047
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.7068377733230591,
+    "iou": 0.4931858813899842,
+    "bbox": [
+     256.4708137512207,
+     165.94611167907715,
+     111.35908126831055,
+     154.60229873657227
+    ]
+   },
+   "depictedBest": 0.7068377733230591,
+   "inferenceMs": 3362.600000000093,
+   "renderMs": 307.5,
+   "depthClean": {
+    "samples": 1680,
+    "validFraction": 0.9303571428571429,
+    "medianDepth": 2.8675074577331543,
+    "centroidCam": [
+     -0.042612262895194264,
+     -0.023172804862297107,
+     3.4589464582088127
+    ],
+    "planeRms": 0.14163683596637386,
+    "expectedNoise": 0.034890396080621035,
+    "excessRelief": 0.13727218787468523,
+    "offPlaneFraction": 0.5150351887396033,
+    "depthSpread": 3.470043659210205,
+    "planeIncidenceDeg": 86.55698371814263,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 1680,
+    "validFraction": 0.9297619047619048,
+    "medianDepth": 2.8581600189208984,
+    "centroidCam": [
+     -0.04274133878518812,
+     -0.02348060800613704,
+     3.453102304901875
+    ],
+    "planeRms": 0.1415013803717308,
+    "expectedNoise": 0.03467631477503164,
+    "excessRelief": 0.13718671160403315,
+    "offPlaneFraction": 0.5128040973111395,
+    "depthSpread": 3.388406991958618,
+    "planeIncidenceDeg": 86.57953002323242,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d3-az120",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 3,
+   "angleDeg": 120,
+   "gtClass": "potted plant",
+   "gtBox": [
+    224.7970547391804,
+    156.7489670181805,
+    180.9472619052729,
+    192.92074713078023
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.7992757558822632,
+     "bbox": [
+      230.74310302734375,
+      160.41771411895752,
+      160.55694580078125,
+      167.7694272994995
+     ]
+    },
+    {
+     "cls": "bench",
+     "score": 0.22821159660816193,
+     "bbox": [
+      -2.8643035888671875,
+      158.47546577453613,
+      649.4097900390625,
+      310.3351593017578
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.7992757558822632,
+    "iou": 0.7716333139312492,
+    "bbox": [
+     230.74310302734375,
+     160.41771411895752,
+     160.55694580078125,
+     167.7694272994995
+    ]
+   },
+   "depictedBest": 0.7992757558822632,
+   "inferenceMs": 3530.899999999907,
+   "renderMs": 329.9000000001397,
+   "depthClean": {
+    "samples": 2600,
+    "validFraction": 0.895,
+    "medianDepth": 3.077310562133789,
+    "centroidCam": [
+     -0.05141468736958523,
+     -0.041290019846034164,
+     3.78967942625963
+    ],
+    "planeRms": 0.16723259250658878,
+    "expectedNoise": 0.039879361183280705,
+    "excessRelief": 0.16240805567485936,
+    "offPlaneFraction": 0.5096691018478728,
+    "depthSpread": 3.5112552642822266,
+    "planeIncidenceDeg": 85.84426001458867,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 2600,
+    "validFraction": 0.8884615384615384,
+    "medianDepth": 3.0732154846191406,
+    "centroidCam": [
+     -0.04994615001257641,
+     -0.044328340497207,
+     3.7606882860134174
+    ],
+    "planeRms": 0.1675599065502895,
+    "expectedNoise": 0.03977861365961144,
+    "excessRelief": 0.16276972746325136,
+    "offPlaneFraction": 0.5112554112554113,
+    "depthSpread": 3.474431276321411,
+    "planeIncidenceDeg": 85.93975280815637,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d3-az180",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 3,
+   "angleDeg": 180,
+   "gtClass": "potted plant",
+   "gtBox": [
+    241.54894827302488,
+    157.09801372129687,
+    156.90210345395028,
+    181.33426881480779
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.7464560866355896,
+     "bbox": [
+      255.53260803222656,
+      163.50929260253906,
+      122.39429473876953,
+      151.68874740600586
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.7464560866355896,
+    "iou": 0.6525381208684932,
+    "bbox": [
+     255.53260803222656,
+     163.50929260253906,
+     122.39429473876953,
+     151.68874740600586
+    ]
+   },
+   "depictedBest": 0.7464560866355896,
+   "inferenceMs": 3266.7999999998137,
+   "renderMs": 339.9000000001397,
+   "depthClean": {
+    "samples": 1786,
+    "validFraction": 0.958006718924972,
+    "medianDepth": 2.9956016540527344,
+    "centroidCam": [
+     -0.02384135892133109,
+     0.007187529006064051,
+     3.623278155792254
+    ],
+    "planeRms": 0.15796908261874285,
+    "expectedNoise": 0.03789451707905391,
+    "excessRelief": 0.1533565669893288,
+    "offPlaneFraction": 0.5774400935125658,
+    "depthSpread": 3.525362730026245,
+    "planeIncidenceDeg": 87.6056253968356,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 1786,
+    "validFraction": 0.9540873460246361,
+    "medianDepth": 2.9984071254730225,
+    "centroidCam": [
+     -0.02271546173106658,
+     0.00526928408921678,
+     3.603065124000182
+    ],
+    "planeRms": 0.1575766087705659,
+    "expectedNoise": 0.037961781160349574,
+    "excessRelief": 0.15293557729568916,
+    "offPlaneFraction": 0.5733568075117371,
+    "depthSpread": 3.4522359371185303,
+    "planeIncidenceDeg": 87.58621931334544,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d3-az240",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 3,
+   "angleDeg": 240,
+   "gtClass": "potted plant",
+   "gtBox": [
+    234.2556833555467,
+    156.7489670181805,
+    180.94726190527285,
+    192.92074713078017
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.7834283113479614,
+     "bbox": [
+      268.68629455566406,
+      167.65116691589355,
+      121.44775390625,
+      142.58872032165527
+     ]
+    },
+    {
+     "cls": "bench",
+     "score": 0.6799254417419434,
+     "bbox": [
+      4.0116119384765625,
+      194.19316291809082,
+      630.3178405761719,
+      283.33940505981445
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.7834283113479614,
+    "iou": 0.49607084983874006,
+    "bbox": [
+     268.68629455566406,
+     167.65116691589355,
+     121.44775390625,
+     142.58872032165527
+    ]
+   },
+   "depictedBest": 0.7834283113479614,
+   "inferenceMs": 2769.4000000001397,
+   "renderMs": 369.89999999990687,
+   "depthClean": {
+    "samples": 1672,
+    "validFraction": 0.9419856459330144,
+    "medianDepth": 2.9680676460266113,
+    "centroidCam": [
+     0.06953244975652557,
+     0.002088843790046796,
+     3.5364544688330755
+    ],
+    "planeRms": 0.14135373596679454,
+    "expectedNoise": 0.0372377022055598,
+    "excessRelief": 0.13636066957235254,
+    "offPlaneFraction": 0.5155555555555555,
+    "depthSpread": 3.483799695968628,
+    "planeIncidenceDeg": 87.35225729647733,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 1672,
+    "validFraction": 0.9407894736842105,
+    "medianDepth": 2.970684289932251,
+    "centroidCam": [
+     0.0688220537317361,
+     0.0016889449084015005,
+     3.52992499518834
+    ],
+    "planeRms": 0.14127386189932029,
+    "expectedNoise": 0.03729986060180113,
+    "excessRelief": 0.13626086912622576,
+    "offPlaneFraction": 0.5149396058486968,
+    "depthSpread": 3.4167654514312744,
+    "planeIncidenceDeg": 87.37461128388362,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d3-az300",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 3,
+   "angleDeg": 300,
+   "gtClass": "potted plant",
+   "gtBox": [
+    224.7970547391803,
+    156.74896701818048,
+    180.94726190527282,
+    192.9207471307802
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.628630518913269,
+     "bbox": [
+      262.0643997192383,
+      162.50993728637695,
+      135.04295349121094,
+      159.0332794189453
+     ]
+    },
+    {
+     "cls": "bench",
+     "score": 0.42205116152763367,
+     "bbox": [
+      -0.0726318359375,
+      186.58324241638184,
+      636.6278076171875,
+      292.8600311279297
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.628630518913269,
+    "iou": 0.6152179403608395,
+    "bbox": [
+     262.0643997192383,
+     162.50993728637695,
+     135.04295349121094,
+     159.0332794189453
+    ]
+   },
+   "depictedBest": 0.628630518913269,
+   "inferenceMs": 3135,
+   "renderMs": 311,
+   "depthClean": {
+    "samples": 2058,
+    "validFraction": 0.9169096209912536,
+    "medianDepth": 2.8707480430603027,
+    "centroidCam": [
+     0.0684258151373972,
+     -0.022963731301531322,
+     3.4665075517168233
+    ],
+    "planeRms": 0.15287723664297775,
+    "expectedNoise": 0.034964777306938234,
+    "excessRelief": 0.14882511156209235,
+    "offPlaneFraction": 0.5230524642289348,
+    "depthSpread": 3.429487943649292,
+    "planeIncidenceDeg": 86.48501549700502,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 2058,
+    "validFraction": 0.9149659863945578,
+    "medianDepth": 2.8732869625091553,
+    "centroidCam": [
+     0.06796241389892455,
+     -0.023796782385796772,
+     3.4550993799593495
+    ],
+    "planeRms": 0.15289468386339927,
+    "expectedNoise": 0.035023111875700355,
+    "excessRelief": 0.14882931830869542,
+    "offPlaneFraction": 0.5273499734466277,
+    "depthSpread": 3.466247320175171,
+    "planeIncidenceDeg": 86.53103358361804,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d4.2-az0",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 4.2,
+   "angleDeg": 0,
+   "gtClass": "potted plant",
+   "gtBox": [
+    266.08022883377544,
+    155.0411869032793,
+    107.83954233244913,
+    126.70816471187322
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.8789075613021851,
+     "bbox": [
+      276.08985900878906,
+      158.95581722259521,
+      94.36325073242188,
+      117.34873294830322
+     ]
+    },
+    {
+     "cls": "dining table",
+     "score": 0.2552141547203064,
+     "bbox": [
+      -30.70484161376953,
+      180.50057888031006,
+      669.7172546386719,
+      300.61413288116455
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.8789075613021851,
+    "iou": 0.8103985620300578,
+    "bbox": [
+     276.08985900878906,
+     158.95581722259521,
+     94.36325073242188,
+     117.34873294830322
+    ]
+   },
+   "depictedBest": 0.8789075613021851,
+   "inferenceMs": 3795.600000000093,
+   "renderMs": 358.19999999995343,
+   "depthClean": {
+    "samples": 4248,
+    "validFraction": 0.7940207156308852,
+    "medianDepth": 4.00193452835083,
+    "centroidCam": [
+     0.01801844506657128,
+     0.15188028671299975,
+     4.336934846761563
+    ],
+    "planeRms": 0.15061709747013569,
+    "expectedNoise": 0.06606191987682633,
+    "excessRelief": 0.1353563178891777,
+    "offPlaneFraction": 0.20130447672694932,
+    "depthSpread": 0.5098512172698975,
+    "planeIncidenceDeg": 89.59178190716567,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 4248,
+    "validFraction": 0.7909604519774012,
+    "medianDepth": 4.019744873046875,
+    "centroidCam": [
+     0.01812406961411126,
+     0.15098801048253582,
+     4.32067992665938
+    ],
+    "planeRms": 0.14961073597277658,
+    "expectedNoise": 0.06663339537754655,
+    "excessRelief": 0.13395283848719078,
+    "offPlaneFraction": 0.19226190476190477,
+    "depthSpread": 0.5934147834777832,
+    "planeIncidenceDeg": 89.53537518518424,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d4.2-az60",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 4.2,
+   "angleDeg": 60,
+   "gtClass": "potted plant",
+   "gtBox": [
+    257.82208820213015,
+    154.84884354560984,
+    129.18327779596018,
+    132.3164862116745
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.8719611167907715,
+     "bbox": [
+      272.9910659790039,
+      154.00111198425293,
+      83.13804626464844,
+      119.04012680053711
+     ]
+    },
+    {
+     "cls": "bench",
+     "score": 0.22715459764003754,
+     "bbox": [
+      -13.100509643554688,
+      149.91919040679932,
+      652.6754760742188,
+      315.0511121749878
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.8719611167907715,
+    "iou": 0.5725086772682854,
+    "bbox": [
+     272.9910659790039,
+     154.00111198425293,
+     83.13804626464844,
+     119.04012680053711
+    ]
+   },
+   "depictedBest": 0.8719611167907715,
+   "inferenceMs": 2896.8000000000466,
+   "renderMs": 351.10000000009313,
+   "depthClean": {
+    "samples": 3848,
+    "validFraction": 0.7985966735966736,
+    "medianDepth": 4.020112037658691,
+    "centroidCam": [
+     -0.04398957225495851,
+     0.18479121525305692,
+     4.26945889977574
+    ],
+    "planeRms": 0.1188173577293151,
+    "expectedNoise": 0.06664520318131327,
+    "excessRelief": 0.09836656642730551,
+    "offPlaneFraction": 0.049788480312398305,
+    "depthSpread": 0.5826153755187988,
+    "planeIncidenceDeg": 87.6734798600075,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 3848,
+    "validFraction": 0.7936590436590436,
+    "medianDepth": 4.02756929397583,
+    "centroidCam": [
+     -0.044479299561179284,
+     0.183535934277924,
+     4.246148466283227
+    ],
+    "planeRms": 0.11836448004341363,
+    "expectedNoise": 0.06688525767110787,
+    "excessRelief": 0.09765506869700706,
+    "offPlaneFraction": 0.04780615586116568,
+    "depthSpread": 0.6083004474639893,
+    "planeIncidenceDeg": 87.63130993238717,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d4.2-az120",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 4.2,
+   "angleDeg": 120,
+   "gtClass": "potted plant",
+   "gtBox": [
+    252.99463400190996,
+    154.84884354560987,
+    129.18327779596018,
+    132.31648621167446
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.9012345671653748,
+     "bbox": [
+      261.07011795043945,
+      153.7232494354248,
+      106.29209518432617,
+      116.99913024902344
+     ]
+    },
+    {
+     "cls": "bench",
+     "score": 0.21385429799556732,
+     "bbox": [
+      -5.595874786376953,
+      148.074688911438,
+      646.7206764221191,
+      332.419810295105
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.9012345671653748,
+    "iou": 0.7155430135216472,
+    "bbox": [
+     261.07011795043945,
+     153.7232494354248,
+     106.29209518432617,
+     116.99913024902344
+    ]
+   },
+   "depictedBest": 0.9012345671653748,
+   "inferenceMs": 3019.600000000093,
+   "renderMs": 320.69999999995343,
+   "depthClean": {
+    "samples": 4752,
+    "validFraction": 0.7384259259259259,
+    "medianDepth": 4.20930290222168,
+    "centroidCam": [
+     -0.01531092197457338,
+     0.18356206873896666,
+     4.519387897517002
+    ],
+    "planeRms": 0.1632853337268673,
+    "expectedNoise": 0.07287292369060742,
+    "excessRelief": 0.1461219942482217,
+    "offPlaneFraction": 0.18153320034197779,
+    "depthSpread": 1.898636817932129,
+    "planeIncidenceDeg": 87.36804077225219,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 4752,
+    "validFraction": 0.7365319865319865,
+    "medianDepth": 4.212771892547607,
+    "centroidCam": [
+     -0.014647277676300289,
+     0.18318178970338922,
+     4.511700927666255
+    ],
+    "planeRms": 0.1618184957804067,
+    "expectedNoise": 0.07298978807455661,
+    "excessRelief": 0.14442200806478495,
+    "offPlaneFraction": 0.16714285714285715,
+    "depthSpread": 1.8159873485565186,
+    "planeIncidenceDeg": 87.06957736518284,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d4.2-az180",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 4.2,
+   "angleDeg": 180,
+   "gtClass": "potted plant",
+   "gtBox": [
+    266.08022883377544,
+    155.0411869032793,
+    107.83954233244913,
+    126.70816471187328
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.8452363014221191,
+     "bbox": [
+      275.8134460449219,
+      155.88435173034668,
+      90.4754638671875,
+      112.55681991577148
+     ]
+    },
+    {
+     "cls": "dining table",
+     "score": 0.34463098645210266,
+     "bbox": [
+      -18.679847717285156,
+      197.97706604003906,
+      663.1657791137695,
+      287.77021408081055
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.8452363014221191,
+    "iou": 0.7452809085368234,
+    "bbox": [
+     275.8134460449219,
+     155.88435173034668,
+     90.4754638671875,
+     112.55681991577148
+    ]
+   },
+   "depictedBest": 0.8452363014221191,
+   "inferenceMs": 3824.8000000000466,
+   "renderMs": 338.80000000004657,
+   "depthClean": {
+    "samples": 3933,
+    "validFraction": 0.8164251207729468,
+    "medianDepth": 4.148787021636963,
+    "centroidCam": [
+     0.027679889286899278,
+     0.2080020528040374,
+     4.4159290135667835
+    ],
+    "planeRms": 0.1408705817072209,
+    "expectedNoise": 0.07084973500361322,
+    "excessRelief": 0.12175728249451274,
+    "offPlaneFraction": 0.10028028651510433,
+    "depthSpread": 0.5206699371337891,
+    "planeIncidenceDeg": 87.90012145147654,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 3933,
+    "validFraction": 0.8121027205695398,
+    "medianDepth": 4.1607818603515625,
+    "centroidCam": [
+     0.027754456095055495,
+     0.2070968331905404,
+     4.39547252042934
+    ],
+    "planeRms": 0.13909538728766432,
+    "expectedNoise": 0.07124842275772243,
+    "excessRelief": 0.11946208193080426,
+    "offPlaneFraction": 0.09048215403882279,
+    "depthSpread": 0.5827019214630127,
+    "planeIncidenceDeg": 87.6343523239411,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d4.2-az240",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 4.2,
+   "angleDeg": 240,
+   "gtClass": "potted plant",
+   "gtBox": [
+    257.82208820213,
+    154.84884354560987,
+    129.18327779596024,
+    132.31648621167446
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.8258401155471802,
+     "bbox": [
+      281.86641693115234,
+      156.16979598999023,
+      91.5667724609375,
+      114.05636787414551
+     ]
+    },
+    {
+     "cls": "bench",
+     "score": 0.20292581617832184,
+     "bbox": [
+      -5.055675506591797,
+      152.4218988418579,
+      643.388500213623,
+      324.84382152557373
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.8258401155471802,
+    "iou": 0.6109943366748013,
+    "bbox": [
+     281.86641693115234,
+     156.16979598999023,
+     91.5667724609375,
+     114.05636787414551
+    ]
+   },
+   "depictedBest": 0.8258401155471802,
+   "inferenceMs": 3047.5,
+   "renderMs": 310.30000000004657,
+   "depthClean": {
+    "samples": 4047,
+    "validFraction": 0.8047936743266617,
+    "medianDepth": 4.1321306228637695,
+    "centroidCam": [
+     0.06947620892793768,
+     0.19164261162168522,
+     4.2872119486460045
+    ],
+    "planeRms": 0.13630301594242894,
+    "expectedNoise": 0.0702980139376341,
+    "excessRelief": 0.11677628779605147,
+    "offPlaneFraction": 0.10961007061713234,
+    "depthSpread": 0.48418092727661133,
+    "planeIncidenceDeg": 88.455711018517,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 4047,
+    "validFraction": 0.8010872251050161,
+    "medianDepth": 4.139054298400879,
+    "centroidCam": [
+     0.06847802563493446,
+     0.1908665062892059,
+     4.271229103933801
+    ],
+    "planeRms": 0.135470454815395,
+    "expectedNoise": 0.07052708194044317,
+    "excessRelief": 0.11566406028173139,
+    "offPlaneFraction": 0.10363972856261566,
+    "depthSpread": 0.48499274253845215,
+    "planeIncidenceDeg": 88.61886069670307,
+    "truncated": false
+   }
+  },
+  {
+   "id": "plant-obj-d4.2-az300",
+   "kind": "object",
+   "assetId": "plant",
+   "distance": 4.2,
+   "angleDeg": 300,
+   "gtClass": "potted plant",
+   "gtBox": [
+    252.99463400190967,
+    154.84884354560984,
+    129.18327779596018,
+    132.3164862116745
+   ],
+   "detections": [
+    {
+     "cls": "potted plant",
+     "score": 0.9022921919822693,
+     "bbox": [
+      271.97021484375,
+      153.35400581359863,
+      102.83721923828125,
+      122.00826644897461
+     ]
+    },
+    {
+     "cls": "bench",
+     "score": 0.30107319355010986,
+     "bbox": [
+      -6.831340789794922,
+      146.89447402954102,
+      652.7481651306152,
+      331.3407897949219
+     ]
+    }
+   ],
+   "match": {
+    "score": 0.9022921919822693,
+    "iou": 0.7185834010279201,
+    "bbox": [
+     271.97021484375,
+     153.35400581359863,
+     102.83721923828125,
+     122.00826644897461
+    ]
+   },
+   "depictedBest": 0.9022921919822693,
+   "inferenceMs": 2962.8000000000466,
+   "renderMs": 332.5,
+   "depthClean": {
+    "samples": 4800,
+    "validFraction": 0.7766666666666666,
+    "medianDepth": 4.037753582000732,
+    "centroidCam": [
+     0.017783288573519115,
+     0.1637136901427488,
+     4.29879463460824
+    ],
+    "planeRms": 0.15511001182912068,
+    "expectedNoise": 0.06721381595583897,
+    "excessRelief": 0.1397906245578886,
+    "offPlaneFraction": 0.17784334763948498,
+    "depthSpread": 1.3745462894439697,
+    "planeIncidenceDeg": 88.44390163351231,
+    "truncated": false
+   },
+   "depthNoisy": {
+    "samples": 4800,
+    "validFraction": 0.7735416666666667,
+    "medianDepth": 4.046109676361084,
+    "centroidCam": [
+     0.01662457592979628,
+     0.16283591658811847,
+     4.284526548326546
+    ],
+    "planeRms": 0.1529692910486411,
+    "expectedNoise": 0.06748401405257119,
+    "excessRelief": 0.13727895633080928,
+    "offPlaneFraction": 0.1677888499865338,
+    "depthSpread": 1.3170208930969238,
+    "planeIncidenceDeg": 87.80619739449287,
+    "truncated": false
+   }
+  },
+  {
+   "id": "empty-0",
+   "kind": "empty",
+   "assetId": null,
+   "distance": 2,
+   "angleDeg": 0,
+   "gtClass": null,
+   "gtBox": null,
+   "detections": [],
+   "match": null,
+   "depictedBest": 0,
+   "inferenceMs": 3087.1999999999534,
+   "renderMs": 154,
+   "depthClean": null,
+   "depthNoisy": null
+  },
+  {
+   "id": "empty-1",
+   "kind": "empty",
+   "assetId": null,
+   "distance": 3,
+   "angleDeg": 30,
+   "gtClass": null,
+   "gtBox": null,
+   "detections": [
+    {
+     "cls": "surfboard",
+     "score": 0.2939910590648651,
+     "bbox": [
+      -11.935920715332031,
+      246.0757827758789,
+      645.628662109375,
+      232.43602752685547
+     ]
+    }
+   ],
+   "match": null,
+   "depictedBest": 0,
+   "inferenceMs": 3146.0999999998603,
+   "renderMs": 126.70000000018626,
+   "depthClean": null,
+   "depthNoisy": null
+  },
+  {
+   "id": "empty-2",
+   "kind": "empty",
+   "assetId": null,
+   "distance": 4,
+   "angleDeg": 60,
+   "gtClass": null,
+   "gtBox": null,
+   "detections": [],
+   "match": null,
+   "depictedBest": 0,
+   "inferenceMs": 2904.5999999998603,
+   "renderMs": 130.20000000018626,
+   "depthClean": null,
+   "depthNoisy": null
+  },
+  {
+   "id": "empty-3",
+   "kind": "empty",
+   "assetId": null,
+   "distance": 2,
+   "angleDeg": 90,
+   "gtClass": null,
+   "gtBox": null,
+   "detections": [
+    {
+     "cls": "bench",
+     "score": 0.2841513454914093,
+     "bbox": [
+      7.6947021484375,
+      270.1636505126953,
+      628.1930541992188,
+      208.34667205810547
+     ]
+    }
+   ],
+   "match": null,
+   "depictedBest": 0,
+   "inferenceMs": 3148.5999999998603,
+   "renderMs": 113.10000000009313,
+   "depthClean": null,
+   "depthNoisy": null
+  },
+  {
+   "id": "empty-4",
+   "kind": "empty",
+   "assetId": null,
+   "distance": 3,
+   "angleDeg": 120,
+   "gtClass": null,
+   "gtBox": null,
+   "detections": [],
+   "match": null,
+   "depictedBest": 0,
+   "inferenceMs": 3049.5,
+   "renderMs": 124.69999999995343,
+   "depthClean": null,
+   "depthNoisy": null
+  },
+  {
+   "id": "empty-5",
+   "kind": "empty",
+   "assetId": null,
+   "distance": 4,
+   "angleDeg": 150,
+   "gtClass": null,
+   "gtBox": null,
+   "detections": [
+    {
+     "cls": "surfboard",
+     "score": 0.21419796347618103,
+     "bbox": [
+      4.510765075683594,
+      259.34452056884766,
+      634.47021484375,
+      219.29637908935547
+     ]
+    }
+   ],
+   "match": null,
+   "depictedBest": 0,
+   "inferenceMs": 3174,
+   "renderMs": 110.5999999998603,
+   "depthClean": null,
+   "depthNoisy": null
+  },
+  {
+   "id": "empty-6",
+   "kind": "empty",
+   "assetId": null,
+   "distance": 2,
+   "angleDeg": 180,
+   "gtClass": null,
+   "gtBox": null,
+   "detections": [],
+   "match": null,
+   "depictedBest": 0,
+   "inferenceMs": 3193.3000000000466,
+   "renderMs": 130.69999999995343,
+   "depthClean": null,
+   "depthNoisy": null
+  },
+  {
+   "id": "empty-7",
+   "kind": "empty",
+   "assetId": null,
+   "distance": 3,
+   "angleDeg": 210,
+   "gtClass": null,
+   "gtBox": null,
+   "detections": [],
+   "match": null,
+   "depictedBest": 0,
+   "inferenceMs": 4084.399999999907,
+   "renderMs": 134.39999999990687,
+   "depthClean": null,
+   "depthNoisy": null
+  },
+  {
+   "id": "empty-8",
+   "kind": "empty",
+   "assetId": null,
+   "distance": 4,
+   "angleDeg": 240,
+   "gtClass": null,
+   "gtBox": null,
+   "detections": [
+    {
+     "cls": "keyboard",
+     "score": 0.20986361801624298,
+     "bbox": [
+      1.7369651794433594,
+      253.47098350524902,
+      633.010425567627,
+      224.7062873840332
+     ]
+    }
+   ],
+   "match": null,
+   "depictedBest": 0,
+   "inferenceMs": 3180.3000000000466,
+   "renderMs": 152.29999999981374,
+   "depthClean": null,
+   "depthNoisy": null
+  },
+  {
+   "id": "empty-9",
+   "kind": "empty",
+   "assetId": null,
+   "distance": 2,
+   "angleDeg": 270,
+   "gtClass": null,
+   "gtBox": null,
+   "detections": [
+    {
+     "cls": "bench",
+     "score": 0.21636347472667694,
+     "bbox": [
+      27.438011169433594,
+      274.07066345214844,
+      603.0207061767578,
+      205.88138580322266
+     ]
+    }
+   ],
+   "match": null,
+   "depictedBest": 0,
+   "inferenceMs": 3406.600000000093,
+   "renderMs": 124.69999999995343,
+   "depthClean": null,
+   "depthNoisy": null
+  },
+  {
+   "id": "empty-10",
+   "kind": "empty",
+   "assetId": null,
+   "distance": 3,
+   "angleDeg": 300,
+   "gtClass": null,
+   "gtBox": null,
+   "detections": [],
+   "match": null,
+   "depictedBest": 0,
+   "inferenceMs": 3499.1999999999534,
+   "renderMs": 158.5,
+   "depthClean": null,
+   "depthNoisy": null
+  },
+  {
+   "id": "empty-11",
+   "kind": "empty",
+   "assetId": null,
+   "distance": 4,
+   "angleDeg": 330,
+   "gtClass": null,
+   "gtBox": null,
+   "detections": [],
+   "match": null,
+   "depictedBest": 0,
+   "inferenceMs": 2897.8000000000466,
+   "renderMs": 115.4000000001397,
+   "depthClean": null,
+   "depthNoisy": null
+  }
+ ],
+ "summary": [
+  {
+   "assetId": "plant",
+   "kind": "object",
+   "cls": "potted plant",
+   "n": 24,
+   "hit50": 23,
+   "hit30": 24,
+   "meanBest": 0.8482303048173586
+  }
+ ],
+ "latency": {
+  "n": 36,
+  "medianMs": 3236,
+  "p95Ms": 4019.5,
+  "meanMs": 3339.791666666654
+ },
+ "depthValidation": {
+  "pixels": 144,
+  "medianAbsErr": 0.00004781760485750297,
+  "maxAbsErr": 0.000556812383504468,
+  "within1cm": 1
+ },
+ "falsePositivesOnEmpty": [],
+ "consoleErrors": [],
+ "wallClockS": 145.499
+}

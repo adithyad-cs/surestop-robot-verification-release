@@ -1,0 +1,443 @@
+{
+ "missions": 294,
+ "failedMissions": 0,
+ "perScenario": {
+  "clear-target": {
+   "single-frame": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 12,
+    "outcomes": {
+     "ARRIVED": 12,
+     "NOT_FOUND": 2
+    }
+   },
+   "surestop": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 14,
+    "outcomes": {
+     "ARRIVED": 14
+    }
+   },
+   "surestop-identity": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 14,
+    "outcomes": {
+     "ARRIVED": 14
+    }
+   }
+  },
+  "decoys-only": {
+   "single-frame": {
+    "n": 14,
+    "falseArrivals": 1,
+    "correctArrivals": 0,
+    "outcomes": {
+     "NOT_FOUND": 13,
+     "ARRIVED": 1
+    }
+   },
+   "surestop": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 0,
+    "outcomes": {
+     "NOT_FOUND": 14
+    }
+   },
+   "surestop-identity": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 0,
+    "outcomes": {
+     "NOT_FOUND": 14
+    }
+   }
+  },
+  "lookalike-3d": {
+   "single-frame": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 10,
+    "outcomes": {
+     "ARRIVED": 10,
+     "NOT_FOUND": 4
+    }
+   },
+   "surestop": {
+    "n": 14,
+    "falseArrivals": 1,
+    "correctArrivals": 13,
+    "outcomes": {
+     "ARRIVED": 14
+    }
+   },
+   "surestop-identity": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 14,
+    "outcomes": {
+     "ARRIVED": 14
+    }
+   }
+  },
+  "occluded-target": {
+   "single-frame": {
+    "n": 14,
+    "falseArrivals": 1,
+    "correctArrivals": 6,
+    "outcomes": {
+     "NOT_FOUND": 7,
+     "ARRIVED": 7
+    }
+   },
+   "surestop": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 14,
+    "outcomes": {
+     "ARRIVED": 14
+    }
+   },
+   "surestop-identity": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 14,
+    "outcomes": {
+     "ARRIVED": 14
+    }
+   }
+  },
+  "photo-board-decoy": {
+   "single-frame": {
+    "n": 14,
+    "falseArrivals": 11,
+    "correctArrivals": 1,
+    "outcomes": {
+     "ARRIVED": 12,
+     "NOT_FOUND": 2
+    }
+   },
+   "surestop": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 14,
+    "outcomes": {
+     "ARRIVED": 14
+    }
+   },
+   "surestop-identity": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 14,
+    "outcomes": {
+     "ARRIVED": 14
+    }
+   }
+  },
+  "poster-decoy": {
+   "single-frame": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 10,
+    "outcomes": {
+     "ARRIVED": 10,
+     "NOT_FOUND": 4
+    }
+   },
+   "surestop": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 14,
+    "outcomes": {
+     "ARRIVED": 14
+    }
+   },
+   "surestop-identity": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 14,
+    "outcomes": {
+     "ARRIVED": 14
+    }
+   }
+  },
+  "screen-decoy": {
+   "single-frame": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 6,
+    "outcomes": {
+     "ARRIVED": 6,
+     "NOT_FOUND": 8
+    }
+   },
+   "surestop": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 14,
+    "outcomes": {
+     "ARRIVED": 14
+    }
+   },
+   "surestop-identity": {
+    "n": 14,
+    "falseArrivals": 0,
+    "correctArrivals": 14,
+    "outcomes": {
+     "ARRIVED": 14
+    }
+   }
+  }
+ },
+ "pooled": {
+  "single-frame": {
+   "missions": 98,
+   "falseArrivals": 13,
+   "falseArrivalCI": [
+    0.079,
+    0.214
+   ],
+   "targetPresent": 84,
+   "correctArrivals": 45,
+   "correctArrivalCI": [
+    0.43,
+    0.638
+   ],
+   "outcomes": {
+    "ARRIVED": 58,
+    "NOT_FOUND": 40
+   },
+   "unresolvedCI": [
+    0.0,
+    0.038
+   ],
+   "medianSimTime": 77.57,
+   "medianPath": 28.25,
+   "medianFrames": 39.5,
+   "meanVerificationFrames": 0,
+   "uncachedFrames": 3793,
+   "withheldCandidates": 0
+  },
+  "surestop": {
+   "missions": 98,
+   "falseArrivals": 1,
+   "falseArrivalCI": [
+    0.002,
+    0.056
+   ],
+   "targetPresent": 84,
+   "correctArrivals": 83,
+   "correctArrivalCI": [
+    0.936,
+    0.998
+   ],
+   "outcomes": {
+    "ARRIVED": 84,
+    "NOT_FOUND": 14
+   },
+   "unresolvedCI": [
+    0.0,
+    0.038
+   ],
+   "medianSimTime": 93.68,
+   "medianPath": 33.39,
+   "medianFrames": 33.0,
+   "meanVerificationFrames": 3.58,
+   "uncachedFrames": 832,
+   "withheldCandidates": 0
+  },
+  "surestop-identity": {
+   "missions": 98,
+   "falseArrivals": 0,
+   "falseArrivalCI": [
+    0.0,
+    0.038
+   ],
+   "targetPresent": 84,
+   "correctArrivals": 84,
+   "correctArrivalCI": [
+    0.956,
+    1.0
+   ],
+   "outcomes": {
+    "ARRIVED": 84,
+    "NOT_FOUND": 14
+   },
+   "unresolvedCI": [
+    0.0,
+    0.038
+   ],
+   "medianSimTime": 89.19,
+   "medianPath": 31.54,
+   "medianFrames": 33.0,
+   "meanVerificationFrames": 3.17,
+   "uncachedFrames": 30,
+   "withheldCandidates": 14
+  }
+ },
+ "paired": {
+  "pairs": 98,
+  "changed": [
+   {
+    "world": [
+     "lookalike-3d",
+     123,
+     "v2-04a6cf82"
+    ],
+    "surestop": "FALSE",
+    "surestop-identity": "correct"
+   }
+  ]
+ },
+ "categories": {
+  "single-frame": {
+   "mission: NOT_FOUND (search route completed; no candidate confirmed)": 27,
+   "geometry: flat decoy confirmed as volumetric": 12,
+   "verification: arrived at obstacle": 1
+  },
+  "surestop": {
+   "semantic: look-alike labelled as the target and confirmed": 1
+  },
+  "surestop-identity": {}
+ },
+ "decoyExposure": {
+  "single-frame": {
+   "poster-decoy": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 11,
+    "decoyCandidates": 11,
+    "statuses": {
+     "PENDING": 11
+    }
+   },
+   "screen-decoy": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 5,
+    "decoyCandidates": 5,
+    "statuses": {
+     "PENDING": 5
+    }
+   },
+   "photo-board-decoy": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 14,
+    "decoyCandidates": 14,
+    "statuses": {
+     "CONFIRMED": 11,
+     "PENDING": 3
+    }
+   },
+   "decoys-only": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 13,
+    "decoyCandidates": 16,
+    "statuses": {
+     "PENDING": 15,
+     "CONFIRMED": 1
+    }
+   },
+   "lookalike-3d": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 13,
+    "decoyCandidates": 13,
+    "statuses": {
+     "PENDING": 13
+    }
+   }
+  },
+  "surestop": {
+   "poster-decoy": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 11,
+    "decoyCandidates": 11,
+    "statuses": {
+     "REJECTED": 11
+    }
+   },
+   "screen-decoy": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 5,
+    "decoyCandidates": 5,
+    "statuses": {
+     "REJECTED": 5
+    }
+   },
+   "photo-board-decoy": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 14,
+    "decoyCandidates": 14,
+    "statuses": {
+     "REJECTED": 14
+    }
+   },
+   "decoys-only": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 13,
+    "decoyCandidates": 17,
+    "statuses": {
+     "REJECTED": 17
+    }
+   },
+   "lookalike-3d": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 13,
+    "decoyCandidates": 13,
+    "statuses": {
+     "UNCONFIRMED": 12,
+     "CONFIRMED": 1
+    }
+   }
+  },
+  "surestop-identity": {
+   "poster-decoy": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 11,
+    "decoyCandidates": 11,
+    "statuses": {
+     "REJECTED": 10,
+     "UNCONFIRMED": 1
+    }
+   },
+   "screen-decoy": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 5,
+    "decoyCandidates": 5,
+    "statuses": {
+     "REJECTED": 5
+    }
+   },
+   "photo-board-decoy": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 14,
+    "decoyCandidates": 14,
+    "statuses": {
+     "REJECTED": 14
+    }
+   },
+   "decoys-only": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 13,
+    "decoyCandidates": 17,
+    "statuses": {
+     "REJECTED": 17
+    }
+   },
+   "lookalike-3d": {
+    "n": 14,
+    "missionsWithDecoyCandidate": 13,
+    "decoyCandidates": 13,
+    "statuses": {
+     "UNCONFIRMED": 13
+    }
+   }
+  }
+ },
+ "detectorInferenceMs": {
+  "uncachedFrames": 4655,
+  "median": 98.9,
+  "p95": 141.9
+ }
+}

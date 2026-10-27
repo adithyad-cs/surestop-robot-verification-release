@@ -1,0 +1,5482 @@
+{
+ "clear-target:0": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.297543753148056,
+    "z": -0.286151063349098,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.17389113297686,
+    "z": -4.3,
+    "yaw": -0.08377698194471375
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.4230686208000405,
+    "z": -4.3,
+    "yaw": -0.1834367560009948
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.5813314128667115,
+    "z": 4.2,
+    "yaw": 3.1131227463324516
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8065024320036174,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.687603507516906,
+    "z": -3.3218017898499963,
+    "yaw": -2.753334471843806
+   }
+  ],
+  "start": {
+   "x": -5.661398744769394,
+   "z": 3.237001355458051,
+   "theta": -1.6792157647739594
+  },
+  "lightScale": 1.1137581556336953,
+  "sunAzimuthDeg": 49.20190350851044
+ },
+ "clear-target:1": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.337243518023752,
+    "z": -0.29567742459476,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.065412089158781,
+    "z": -4.3,
+    "yaw": -0.1436415807798318
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.345400560647249,
+    "z": -4.3,
+    "yaw": 0.15746535043913495
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.591430589184165,
+    "z": 4.2,
+    "yaw": 2.092045074691775
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.9926229670643807,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.728439980233088,
+    "z": -3.1144705881830306,
+    "yaw": 0.9511686597182933
+   }
+  ],
+  "start": {
+   "x": -5.6842157624661915,
+   "z": 3.4550894113257526,
+   "theta": -1.5205720891690422
+  },
+  "lightScale": 1.0109305136953481,
+  "sunAzimuthDeg": 38.53228291729465
+ },
+ "clear-target:2": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.291942116664722,
+    "z": -0.28544749617576604,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.0650334294186905,
+    "z": -4.3,
+    "yaw": 0.1052013298062261
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.2404675304889676,
+    "z": -4.3,
+    "yaw": -0.24438505248694606
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.734610868059099,
+    "z": 4.2,
+    "yaw": 0.24599029530603866
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.129467642586678,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.840299918688834,
+    "z": -3.666418805439025,
+    "yaw": 1.5992360818477058
+   }
+  ],
+  "start": {
+   "x": -5.631756430771201,
+   "z": 3.5164957432076336,
+   "theta": -1.679332127634908
+  },
+  "lightScale": 0.9465229357476346,
+  "sunAzimuthDeg": 53.23358645429835
+ },
+ "clear-target:17": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.327065772423521,
+    "z": -0.26029169633984567,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.129363020602614,
+    "z": -4.3,
+    "yaw": -0.07852899276966158
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.417357709421776,
+    "z": -4.3,
+    "yaw": -0.007907728702927053
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.4253421710804104,
+    "z": 4.2,
+    "yaw": 1.3884040587048254
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.137661042623222,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.892635833239183,
+    "z": -3.650610614567995,
+    "yaw": 0.8123215307151934
+   }
+  ],
+  "start": {
+   "x": -5.4943380963988595,
+   "z": 3.5932629510760306,
+   "theta": -1.5832690817332995
+  },
+  "lightScale": 1.0443610295769759,
+  "sunAzimuthDeg": 48.299751318991184
+ },
+ "clear-target:42": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.324714785767719,
+    "z": -0.14719482678920032,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.1332527863793076,
+    "z": -4.3,
+    "yaw": 0.24170132098066138
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.263278521155007,
+    "z": -4.3,
+    "yaw": -0.20100191719189187
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.7898223413154484,
+    "z": 4.2,
+    "yaw": -2.4206173515831093
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.898552549444139,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.087401993200183,
+    "z": -3.633280656626448,
+    "yaw": 0.5035552116215016
+   }
+  ],
+  "start": {
+   "x": -5.516594138368964,
+   "z": 3.5422145063988864,
+   "theta": -1.7017509806574251
+  },
+  "lightScale": 0.9987909255898557,
+  "sunAzimuthDeg": 54.463448310270905
+ },
+ "clear-target:123": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.307837685220875,
+    "z": -0.09044371321797373,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.0667532454244792,
+    "z": -4.3,
+    "yaw": -0.08988278105289757
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.2635290848789733,
+    "z": -4.3,
+    "yaw": -0.10959136165915012
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.4413094856776296,
+    "z": 4.2,
+    "yaw": 1.0896433824434615
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8171084019355477,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.143192287161947,
+    "z": -3.156014653481543,
+    "yaw": -1.7928219846547364
+   }
+  ],
+  "start": {
+   "x": -5.473933296464383,
+   "z": 3.4718043048866094,
+   "theta": -1.601662921525796
+  },
+  "lightScale": 0.9618424928281456,
+  "sunAzimuthDeg": 40.79026378924027
+ },
+ "clear-target:1001": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.347368347202427,
+    "z": -0.3280536717735231,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.285675320820883,
+    "z": -4.3,
+    "yaw": 0.24089030431094266
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.311690134950913,
+    "z": -4.3,
+    "yaw": 0.12644842819696744
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.469612811692059,
+    "z": 4.2,
+    "yaw": -0.8284806619564424
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.031712463777512,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.0387389357201755,
+    "z": -3.2063753098249435,
+    "yaw": -1.7420523241117332
+   }
+  ],
+  "start": {
+   "x": -5.683879038598388,
+   "z": 3.2045872068963943,
+   "theta": -1.4187932284950913
+  },
+  "lightScale": 0.8785924831870944,
+  "sunAzimuthDeg": 48.154431260190904
+ },
+ "clear-target:1020": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.318642641906626,
+    "z": -0.18210184490308168,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.2580421051708983,
+    "z": -4.3,
+    "yaw": -0.21216481270843981
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.433886862359941,
+    "z": -4.3,
+    "yaw": -0.09266357010297097
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.5668202961795035,
+    "z": 4.2,
+    "yaw": 3.0531128182895033
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.0297293164767325,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.888469484494999,
+    "z": -3.6215184088796377,
+    "yaw": -1.0411014798840919
+   }
+  ],
+  "start": {
+   "x": -5.496638818550855,
+   "z": 3.5157078641466795,
+   "theta": -1.4874199760599855
+  },
+  "lightScale": 0.9158856169902719,
+  "sunAzimuthDeg": 61.37617147061974
+ },
+ "poster-decoy:0": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.30889467052184,
+    "z": -0.06870885128155352,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.2622980125248433,
+    "z": -4.3,
+    "yaw": -0.2135983994021275
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.2338063161587343,
+    "z": -4.3,
+    "yaw": -0.06287924228902317
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.7108073328621685,
+    "z": 4.2,
+    "yaw": -2.017840777293511
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.0915510050952433,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -3.68888100287877,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.9888337814714765,
+    "z": -3.613347544847056,
+    "yaw": 0.9305271460192515
+   }
+  ],
+  "start": {
+   "x": -5.656265958491712,
+   "z": 3.2280194849707184,
+   "theta": -1.4892277149024216
+  },
+  "lightScale": 0.8685157799045555,
+  "sunAzimuthDeg": 62.68268016166985
+ },
+ "poster-decoy:1": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.28033625378739,
+    "z": -0.16869209511205555,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.221429605036974,
+    "z": -4.3,
+    "yaw": 0.19244126559686747
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.402831557672471,
+    "z": -4.3,
+    "yaw": 0.256203035770529
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.5681139326654376,
+    "z": 4.2,
+    "yaw": -2.940017962886252
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8719865024089812,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -4.155967678595334,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.772425018623472,
+    "z": -3.3026535390876233,
+    "yaw": 0.46103289511633827
+   }
+  ],
+  "start": {
+   "x": -5.629044960439205,
+   "z": 3.322354648914188,
+   "theta": -1.731607583735896
+  },
+  "lightScale": 0.8986760825151577,
+  "sunAzimuthDeg": 25.98334812093526
+ },
+ "poster-decoy:2": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.342365927621722,
+    "z": -0.11443410702049733,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.108576917741448,
+    "z": -4.3,
+    "yaw": 0.009210067384846365
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.1722635029815134,
+    "z": -4.3,
+    "yaw": 0.13732206579809547
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.473078042361885,
+    "z": 4.2,
+    "yaw": -2.1218985484259285
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.1470316044986246,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -3.8296562093775717,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.876421234058217,
+    "z": -3.495994618348777,
+    "yaw": -0.6983835766049258
+   }
+  ],
+  "start": {
+   "x": -5.653960411716252,
+   "z": 3.4160599613562224,
+   "theta": -1.4943180896899797
+  },
+  "lightScale": 0.9384799160645343,
+  "sunAzimuthDeg": 45.36915084347129
+ },
+ "poster-decoy:17": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.265367464418523,
+    "z": -0.07415895340964196,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.1760123210260645,
+    "z": -4.3,
+    "yaw": -0.2521742967726168
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.4031614650506525,
+    "z": -4.3,
+    "yaw": -0.22758019188752515
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.4830246607773008,
+    "z": 4.2,
+    "yaw": -1.8701180848047099
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.0180650698021054,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -3.976485571078956,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.6803861138876535,
+    "z": -3.1617379210423677,
+    "yaw": -1.0867514962247928
+   }
+  ],
+  "start": {
+   "x": -5.496734512131661,
+   "z": 3.309492831118405,
+   "theta": -1.6215342826521932
+  },
+  "lightScale": 0.9769523638417013,
+  "sunAzimuthDeg": 55.48343637958169
+ },
+ "poster-decoy:42": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.2603523201541975,
+    "z": -0.09913449240848421,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.055994461174123,
+    "z": -4.3,
+    "yaw": -0.2028874676716854
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.345745067903772,
+    "z": -4.3,
+    "yaw": 0.2409060966335182
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.452825460024178,
+    "z": 4.2,
+    "yaw": -1.8007213194994542
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.150949556194246,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -3.980956173688173,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.843678642204032,
+    "z": -3.2285736868157984,
+    "yaw": -2.4106461882669907
+   }
+  ],
+  "start": {
+   "x": -5.528311760164797,
+   "z": 3.3151285145431757,
+   "theta": -1.4936780534400595
+  },
+  "lightScale": 0.8126174701726996,
+  "sunAzimuthDeg": 56.332805280108005
+ },
+ "poster-decoy:123": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.336106373532675,
+    "z": -0.28586895177140836,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.229599366430193,
+    "z": -4.3,
+    "yaw": -0.1944775606414915
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.3360121406614778,
+    "z": -4.3,
+    "yaw": 0.23024679164782297
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.4593398235738277,
+    "z": 4.2,
+    "yaw": 2.457475707178708
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.948750676587224,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -3.9648267589509487,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.975600171787665,
+    "z": -3.4314865024760364,
+    "yaw": 1.2413040441302012
+   }
+  ],
+  "start": {
+   "x": -5.628220968786627,
+   "z": 3.394051253609359,
+   "theta": -1.7131229685762093
+  },
+  "lightScale": 1.1475920891505664,
+  "sunAzimuthDeg": 64.46930557023734
+ },
+ "poster-decoy:1001": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.256961023923941,
+    "z": -0.11321102995425464,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.3196135453414173,
+    "z": -4.3,
+    "yaw": 0.2507944266021522
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.4155286043649538,
+    "z": -4.3,
+    "yaw": -0.006583245830041939
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.435868597216904,
+    "z": 4.2,
+    "yaw": -1.1926597036581668
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.9729684149846434,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -4.15303080570884,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.818414736678824,
+    "z": -3.2186537742614747,
+    "yaw": 0.29317773468086594
+   }
+  ],
+  "start": {
+   "x": -5.605356295779347,
+   "z": 3.3941530783660707,
+   "theta": -1.4001894204594318
+  },
+  "lightScale": 0.8451368204900064,
+  "sunAzimuthDeg": 45.5194321856834
+ },
+ "poster-decoy:1020": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.252806884027086,
+    "z": -0.34163523074239494,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.3176474102772775,
+    "z": -4.3,
+    "yaw": -0.15314232181906928
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.31692299048882,
+    "z": -4.3,
+    "yaw": -0.1555461550378954
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.687341467291117,
+    "z": 4.2,
+    "yaw": -1.9193141779966025
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.17616176167503,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -3.604825802100822,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.690131283458323,
+    "z": -3.139125227695331,
+    "yaw": 0.7470169832272355
+   }
+  ],
+  "start": {
+   "x": -5.518846232071518,
+   "z": 3.5413155810907484,
+   "theta": -1.692377698550221
+  },
+  "lightScale": 0.9512710972456262,
+  "sunAzimuthDeg": 29.77731910534203
+ },
+ "screen-decoy:0": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.341932516195811,
+    "z": -0.0724875687621534,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.11241432861425,
+    "z": -4.3,
+    "yaw": -0.2000629855254287
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.368657376989722,
+    "z": -4.3,
+    "yaw": -0.03976596367295618
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.6346844352781775,
+    "z": 4.2,
+    "yaw": -0.5656268125585444
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.9036904570646584,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.43782020250801,
+    "yaw": -1.5707963267948966
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.946902137389407,
+    "z": -3.627264505671337,
+    "yaw": 0.7402016794567636
+   }
+  ],
+  "start": {
+   "x": -5.654398465622216,
+   "z": 3.306889624428004,
+   "theta": -1.7403877817051145
+  },
+  "lightScale": 1.1002632491523399,
+  "sunAzimuthDeg": 40.46899750130251
+ },
+ "screen-decoy:1": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.302595489425585,
+    "z": -0.2717930547893047,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.226019894029014,
+    "z": -4.3,
+    "yaw": -0.1634266813886877
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.4279138580197466,
+    "z": -4.3,
+    "yaw": -0.20031608449468336
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.4805300417356193,
+    "z": 4.2,
+    "yaw": -0.29967412084713985
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.9490596362389625,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.345612546149641,
+    "yaw": -1.5707963267948966
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.14548532399349,
+    "z": -3.6799622470047324,
+    "yaw": 1.1278710571566988
+   }
+  ],
+  "start": {
+   "x": -5.710029750131071,
+   "z": 3.299339893180877,
+   "theta": -1.6412723217959881
+  },
+  "lightScale": 1.0660477252095006,
+  "sunAzimuthDeg": 26.08958061784506
+ },
+ "screen-decoy:2": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.273476686654612,
+    "z": -0.36377334529533983,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.181520514469594,
+    "z": -4.3,
+    "yaw": -0.22980549460698224
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.2824242939474058,
+    "z": -4.3,
+    "yaw": 0.24879462368328603
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.5135274920612574,
+    "z": 4.2,
+    "yaw": 1.1383923171694095
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.9224397003650666,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.4011164805386214,
+    "yaw": -1.5707963267948966
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.027440425008535,
+    "z": -3.517712208814919,
+    "yaw": -0.9013466584891039
+   }
+  ],
+  "start": {
+   "x": -5.437869856599718,
+   "z": 3.407488766685128,
+   "theta": -1.629125609685562
+  },
+  "lightScale": 1.0557311638374811,
+  "sunAzimuthDeg": 51.12282798392698
+ },
+ "screen-decoy:17": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.344207500689663,
+    "z": -0.2293345604091883,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.2647130765952173,
+    "z": -4.3,
+    "yaw": -0.11160830888071677
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.155468942807056,
+    "z": -4.3,
+    "yaw": -0.1552195740592487
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.542685089726001,
+    "z": 4.2,
+    "yaw": -0.10531295484442849
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.0585205854848025,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.243714297842234,
+    "yaw": -1.5707963267948966
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.192669757176191,
+    "z": -3.3249550526030363,
+    "yaw": -2.0257446442584386
+   }
+  ],
+  "start": {
+   "x": -5.587859566323459,
+   "z": 3.262439706455916,
+   "theta": -1.6214693868747379
+  },
+  "lightScale": 0.9928408375824801,
+  "sunAzimuthDeg": 64.0319795627147
+ },
+ "screen-decoy:42": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.31383235338144,
+    "z": -0.2803454856388271,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.1200167561415584,
+    "z": -4.3,
+    "yaw": -0.0100559686771734
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.1795480910455804,
+    "z": -4.3,
+    "yaw": 0.14424039520857063
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.687122894637287,
+    "z": 4.2,
+    "yaw": -2.6281050576846186
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8867424786090852,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.2755502827465532,
+    "yaw": -1.5707963267948966
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.907818640675396,
+    "z": -3.4217200425919145,
+    "yaw": 1.5890117269108552
+   }
+  ],
+  "start": {
+   "x": -5.569707996211946,
+   "z": 3.2202378233894704,
+   "theta": -1.3967621754685404
+  },
+  "lightScale": 1.0290677049313672,
+  "sunAzimuthDeg": 33.93554477253929
+ },
+ "screen-decoy:123": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.306579987518489,
+    "z": -0.0713710865005851,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.273719602823258,
+    "z": -4.3,
+    "yaw": 0.22525543536446557
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.4461494607618075,
+    "z": -4.3,
+    "yaw": -0.08492529498037044
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.479866803996265,
+    "z": 4.2,
+    "yaw": -1.8025948523510462
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.1631681613624094,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.2475743356160818,
+    "yaw": -1.5707963267948966
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.068928234744817,
+    "z": -3.1361046253237874,
+    "yaw": 1.9999053270328737
+   }
+  ],
+  "start": {
+   "x": -5.4653124929405745,
+   "z": 3.4995263529010114,
+   "theta": -1.5436721608857824
+  },
+  "lightScale": 0.8753255049348809,
+  "sunAzimuthDeg": 20.728428119327873
+ },
+ "screen-decoy:1001": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.2676577408798035,
+    "z": -0.3014674251899123,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.0652710084570574,
+    "z": -4.3,
+    "yaw": 0.21673684973499086
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.24428570412565,
+    "z": -4.3,
+    "yaw": -0.13686611080573985
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.683837960660458,
+    "z": 4.2,
+    "yaw": 2.2811261977652197
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.0414815263822677,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.5369444838259367,
+    "yaw": -1.5707963267948966
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.795712685259059,
+    "z": -3.5641734397970137,
+    "yaw": 2.5476151338019237
+   }
+  ],
+  "start": {
+   "x": -5.450562379043549,
+   "z": 3.4642789476551115,
+   "theta": -1.5610391587290473
+  },
+  "lightScale": 0.9969300138182007,
+  "sunAzimuthDeg": 36.62991527700797
+ },
+ "screen-decoy:1020": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.310515071661212,
+    "z": -0.24212459744885564,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.1436868702294305,
+    "z": -4.3,
+    "yaw": 0.1918473623060306
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.3639582988573236,
+    "z": -4.3,
+    "yaw": -0.16716036224481534
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.773417117726058,
+    "z": 4.2,
+    "yaw": -1.1419967512857012
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8522192485630513,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.371440304862335,
+    "yaw": -1.5707963267948966
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.1542305600363765,
+    "z": -3.3724751889705655,
+    "yaw": -1.0438489424412212
+   }
+  ],
+  "start": {
+   "x": -5.781518269889056,
+   "z": 3.4769520343281326,
+   "theta": -1.6218236978313065
+  },
+  "lightScale": 1.120574484753888,
+  "sunAzimuthDeg": 27.473089324776083
+ },
+ "decoys-only:0": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.310327902249992,
+    "z": -0.3403178680688143,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.2773018180625515,
+    "z": -4.3,
+    "yaw": 0.13349654648033676
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.2814173771766946,
+    "z": -4.3,
+    "yaw": 0.2173696126406771
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.793272734805942,
+    "z": 4.2,
+    "yaw": -1.5273724080258089
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.0739213124848903,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -3.8850318702869115,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.255656842095777,
+    "yaw": -1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.429485292732715,
+   "z": 3.210808950010687,
+   "theta": -1.422781194625126
+  },
+  "lightScale": 0.8050105245551095,
+  "sunAzimuthDeg": 32.976577470544726
+ },
+ "decoys-only:1": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.325061472947709,
+    "z": -0.01322305779904126,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.1457260755822065,
+    "z": -4.3,
+    "yaw": 0.08632873056671492
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.4345108483918008,
+    "z": -4.3,
+    "yaw": 0.12121587061327438
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.5103442559018734,
+    "z": 4.2,
+    "yaw": -2.2535909035182615
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.0059293904341757,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -3.8769191122613846,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.1940438178833572,
+    "yaw": -1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.412159312795847,
+   "z": 3.4044551584869622,
+   "theta": -1.613533349122149
+  },
+  "lightScale": 0.9013184780371375,
+  "sunAzimuthDeg": 58.32463794387877
+ },
+ "decoys-only:2": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.297152852546423,
+    "z": -0.36656467644497753,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.1185596115188674,
+    "z": -4.3,
+    "yaw": -0.14323857427870768
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.4452724267495793,
+    "z": -4.3,
+    "yaw": -0.14284794369880466
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.552100820466876,
+    "z": 4.2,
+    "yaw": -0.22442028213126708
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.06307110125199,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -4.029658885952085,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.506942212418653,
+    "yaw": -1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.460341917537153,
+   "z": 3.3356163094751534,
+   "theta": -1.4139188978558457
+  },
+  "lightScale": 1.1482831570669076,
+  "sunAzimuthDeg": 59.32371129048988
+ },
+ "decoys-only:17": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.34137474077288,
+    "z": -0.39916625814512374,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.181992789101787,
+    "z": -4.3,
+    "yaw": -0.14663872480767273
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.2021993925562127,
+    "z": -4.3,
+    "yaw": 0.1666241797278042
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.5308761854656043,
+    "z": 4.2,
+    "yaw": 2.1775981712130763
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8315010310150683,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -3.933733946783468,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.323323869681917,
+    "yaw": -1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.722117751743644,
+   "z": 3.4879484390839934,
+   "theta": -1.4071736926497043
+  },
+  "lightScale": 1.0847065997775642,
+  "sunAzimuthDeg": 22.25671622902155
+ },
+ "decoys-only:42": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.3178497551474715,
+    "z": -0.1950580345466733,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.299927076022141,
+    "z": -4.3,
+    "yaw": 0.04712874502901987
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.3335313615621995,
+    "z": -4.3,
+    "yaw": -0.025675212805195025
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.623460479080677,
+    "z": 4.2,
+    "yaw": 0.8220284281207189
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.0412010923027992,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -4.005134210782126,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.445945648429915,
+    "yaw": -1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.748313765693456,
+   "z": 3.465293051395565,
+   "theta": -1.6223916314004003
+  },
+  "lightScale": 0.8583443284966051,
+  "sunAzimuthDeg": 32.676588154863566
+ },
+ "decoys-only:123": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.261375914141536,
+    "z": -0.09771148664876816,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.129897247767076,
+    "z": -4.3,
+    "yaw": 0.053753148230574366
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.3601079204818234,
+    "z": -4.3,
+    "yaw": -0.25493595268286096
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.57093201931566,
+    "z": 4.2,
+    "yaw": 1.5337970526894757
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.9719613302499055,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -4.158500928198919,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.295574223459698,
+    "yaw": -1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.48864099662751,
+   "z": 3.5868312317878006,
+   "theta": -1.7021356088031756
+  },
+  "lightScale": 0.81159184363205,
+  "sunAzimuthDeg": 33.267242594156414
+ },
+ "decoys-only:1001": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.336800770508125,
+    "z": -0.19169881381094456,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.129257870744914,
+    "z": -4.3,
+    "yaw": -0.10333053980412282
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.301480429340154,
+    "z": -4.3,
+    "yaw": 0.10978820045637133
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.711149682663381,
+    "z": 4.2,
+    "yaw": 2.4937755645391864
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8654586788266898,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -3.873023565346375,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.248504319996573,
+    "yaw": -1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.505788472387939,
+   "z": 3.522283775079995,
+   "theta": -1.684011952506176
+  },
+  "lightScale": 1.136901005450636,
+  "sunAzimuthDeg": 50.97645641537383
+ },
+ "decoys-only:1020": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.257168040168471,
+    "z": -0.11585501888766886,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.1537987377960235,
+    "z": -4.3,
+    "yaw": 0.044678232654390915
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.2796858982415866,
+    "z": -4.3,
+    "yaw": 0.12852214883099367
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.683102434128523,
+    "z": 4.2,
+    "yaw": -2.852147447595158
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.9590441938489676,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "poster-w",
+    "kind": "picture-decoy",
+    "label": "framed print of a potted plant",
+    "model": {
+     "type": "poster",
+     "ofAsset": "plant",
+     "width": 0.6,
+     "height": 0.8
+    },
+    "x": -3.723365273606032,
+    "z": -4.878,
+    "y": 1.15,
+    "yaw": 0
+   },
+   {
+    "id": "screen-w",
+    "kind": "screen-decoy",
+    "label": "display showing a potted plant",
+    "model": {
+     "type": "screen",
+     "ofAsset": "plant"
+    },
+    "x": -0.3,
+    "z": -3.24411627727095,
+    "yaw": -1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.578833208139986,
+   "z": 3.471532556600869,
+   "theta": -1.4837448912903344
+  },
+  "lightScale": 1.0439860315877012,
+  "sunAzimuthDeg": 55.67046624375507
+ },
+ "occluded-target:0": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.346284499508329,
+    "z": -0.16091403774917126,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.2549586889566857,
+    "z": -4.3,
+    "yaw": -0.25820520886050324
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.344251318532042,
+    "z": -4.3,
+    "yaw": -0.022321129444636267
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.5241387763991954,
+    "z": 4.2,
+    "yaw": 0.7990273372786754
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8800756328739225,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.980136186070741,
+    "z": 1.4654947963543237,
+    "yaw": -2.545093439003214
+   },
+   {
+    "id": "crate-occ",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.9,
+     "h": 0.8,
+     "d": 0.5,
+     "color": 8227478
+    },
+    "x": 5.130136186070741,
+    "z": 1.2654947963543237,
+    "yaw": 1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.75556149976328,
+   "z": 3.456922244466841,
+   "theta": -1.4049145599496642
+  },
+  "lightScale": 1.032005016610492,
+  "sunAzimuthDeg": 25.05850010085851
+ },
+ "occluded-target:1": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.260050439904444,
+    "z": -0.002177888713777054,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.279769589356147,
+    "z": -4.3,
+    "yaw": -0.025680420184008013
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.253909662296064,
+    "z": -4.3,
+    "yaw": -0.051487429351431496
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.7739682198502122,
+    "z": 4.2,
+    "yaw": 2.5530855886854704
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.9640416053123773,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.955707038054243,
+    "z": 1.7273069231770934,
+    "yaw": -0.3048125313625629
+   },
+   {
+    "id": "crate-occ",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.9,
+     "h": 0.8,
+     "d": 0.5,
+     "color": 8227478
+    },
+    "x": 5.105707038054243,
+    "z": 1.5273069231770935,
+    "yaw": 1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.409316681977361,
+   "z": 3.225787483993918,
+   "theta": -1.5817397524559933
+  },
+  "lightScale": 0.8518067092285492,
+  "sunAzimuthDeg": 30.847956920042634
+ },
+ "occluded-target:2": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.332267102319747,
+    "z": -0.006175829190760873,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.1421760452445597,
+    "z": -4.3,
+    "yaw": 0.1817680574034764
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.335062911710702,
+    "z": -4.3,
+    "yaw": 0.06135245040248888
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.793647003918886,
+    "z": 4.2,
+    "yaw": 1.5586347991441691
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8069033459760249,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.780472107371316,
+    "z": 1.4826724380254745,
+    "yaw": 2.154121463759692
+   },
+   {
+    "id": "crate-occ",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.9,
+     "h": 0.8,
+     "d": 0.5,
+     "color": 8227478
+    },
+    "x": 4.930472107371316,
+    "z": 1.2826724380254746,
+    "yaw": 1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.473377062752842,
+   "z": 3.5789831441827116,
+   "theta": -1.462351311237409
+  },
+  "lightScale": 0.8570517054991796,
+  "sunAzimuthDeg": 52.70136108621955
+ },
+ "occluded-target:17": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.317514192359522,
+    "z": -0.1297718215733767,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.3371980191441253,
+    "z": -4.3,
+    "yaw": 0.09767035956251541
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.2908791083609685,
+    "z": -4.3,
+    "yaw": 0.041901098095589395
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.6541576507501303,
+    "z": 4.2,
+    "yaw": 2.4313009355229775
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.864946096111089,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.819185915915296,
+    "z": 1.5606630795635283,
+    "yaw": 1.912644967077198
+   },
+   {
+    "id": "crate-occ",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.9,
+     "h": 0.8,
+     "d": 0.5,
+     "color": 8227478
+    },
+    "x": 4.969185915915296,
+    "z": 1.3606630795635284,
+    "yaw": 1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.497599542140961,
+   "z": 3.510487894061953,
+   "theta": -1.6299142415142907
+  },
+  "lightScale": 0.9765336147858761,
+  "sunAzimuthDeg": 66.23799743130803
+ },
+ "occluded-target:42": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.3488498975755645,
+    "z": -0.03798076361417768,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.1120180379599334,
+    "z": -4.3,
+    "yaw": -0.01001788623755362
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.2907793421298264,
+    "z": -4.3,
+    "yaw": 0.043263654386766215
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.499791270308197,
+    "z": 4.2,
+    "yaw": -0.2432224762438362
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.1607800601050258,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.791118118353189,
+    "z": 1.68429561406374,
+    "yaw": 0.18728075514375053
+   },
+   {
+    "id": "crate-occ",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.9,
+     "h": 0.8,
+     "d": 0.5,
+     "color": 8227478
+    },
+    "x": 4.941118118353189,
+    "z": 1.48429561406374,
+    "yaw": 1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.485937855299562,
+   "z": 3.504352935682982,
+   "theta": -1.4012092772186546
+  },
+  "lightScale": 0.952963882649783,
+  "sunAzimuthDeg": 29.920144930947572
+ },
+ "occluded-target:123": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.276047010184265,
+    "z": -0.24835894238203765,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.2895605000201615,
+    "z": -4.3,
+    "yaw": 0.055699400423599776
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.232196048973128,
+    "z": -4.3,
+    "yaw": 0.07477699252188635
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.4501332278363406,
+    "z": 4.2,
+    "yaw": 0.6850784888174712
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.819025200046599,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.794198609353043,
+    "z": 1.5123566051945092,
+    "yaw": -2.815635073588223
+   },
+   {
+    "id": "crate-occ",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.9,
+     "h": 0.8,
+     "d": 0.5,
+     "color": 8227478
+    },
+    "x": 4.944198609353044,
+    "z": 1.3123566051945093,
+    "yaw": 1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.685815139114856,
+   "z": 3.4393903479911385,
+   "theta": -1.5792476259949548
+  },
+  "lightScale": 1.0097156358649955,
+  "sunAzimuthDeg": 33.31624211743474
+ },
+ "occluded-target:1001": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.3191629452863705,
+    "z": -0.12253994112834338,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.334443997265771,
+    "z": -4.3,
+    "yaw": -0.11839738789406079
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.3653778311563656,
+    "z": -4.3,
+    "yaw": 0.15671637088303486
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.528446089103818,
+    "z": 4.2,
+    "yaw": -1.8340499156321182
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8678002363070845,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 6.01874915403314,
+    "z": 1.5313208998180927,
+    "yaw": -1.7783813198745135
+   },
+   {
+    "id": "crate-occ",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.9,
+     "h": 0.8,
+     "d": 0.5,
+     "color": 8227478
+    },
+    "x": 5.16874915403314,
+    "z": 1.3313208998180928,
+    "yaw": 1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.598530896287411,
+   "z": 3.2553115379065276,
+   "theta": -1.4082987195649244
+  },
+  "lightScale": 0.8555993695626967,
+  "sunAzimuthDeg": 38.42513979645446
+ },
+ "occluded-target:1020": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.324246951611713,
+    "z": -0.288920389674604,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.1803891355870295,
+    "z": -4.3,
+    "yaw": -0.0459991439346954
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.3648728552972895,
+    "z": -4.3,
+    "yaw": -0.03050899062382445
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.5346640661358832,
+    "z": 4.2,
+    "yaw": 1.5776726166942572
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.1053108300082384,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.770496443915182,
+    "z": 1.6516218770295383,
+    "yaw": 1.2437353803308273
+   },
+   {
+    "id": "crate-occ",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.9,
+     "h": 0.8,
+     "d": 0.5,
+     "color": 8227478
+    },
+    "x": 4.920496443915182,
+    "z": 1.4516218770295384,
+    "yaw": 1.5707963267948966
+   }
+  ],
+  "start": {
+   "x": -5.426124208327383,
+   "z": 3.2643656383268533,
+   "theta": -1.6234679654124449
+  },
+  "lightScale": 1.1136767677497117,
+  "sunAzimuthDeg": 45.68057921016589
+ },
+ "photo-board-decoy:0": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.336446452699602,
+    "z": -0.09051760472357273,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.0873134075896815,
+    "z": -4.3,
+    "yaw": -0.10168623573130575
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.373618837120011,
+    "z": -4.3,
+    "yaw": 0.14219734757791241
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.723186788056046,
+    "z": 4.2,
+    "yaw": -2.281006795854508
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.071160206012428,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "board-w",
+    "kind": "picture-decoy",
+    "label": "life-size photo board of a potted plant",
+    "model": {
+     "type": "board",
+     "ofAsset": "plant",
+     "width": 0.89,
+     "height": 1.19
+    },
+    "x": -3.502833308372647,
+    "z": -4.137095852335915,
+    "yaw": -0.294318981781563
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.939481993205845,
+    "z": -3.2358252918813375,
+    "yaw": -3.1070526471798856
+   }
+  ],
+  "start": {
+   "x": -5.629686597455293,
+   "z": 3.2551720030605793,
+   "theta": -1.4393340359701081
+  },
+  "lightScale": 1.1446313792839646,
+  "sunAzimuthDeg": 60.97931704018265
+ },
+ "photo-board-decoy:1": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.255962209287099,
+    "z": -0.25581435654312373,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.3251992245204747,
+    "z": -4.3,
+    "yaw": 0.01732483788522865
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.3951010385295373,
+    "z": -4.3,
+    "yaw": 0.1271235963432879
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.5699126929976046,
+    "z": 4.2,
+    "yaw": 1.306546477579431
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.9597539931535721,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "board-w",
+    "kind": "picture-decoy",
+    "label": "life-size photo board of a potted plant",
+    "model": {
+     "type": "board",
+     "ofAsset": "plant",
+     "width": 0.89,
+     "height": 1.19
+    },
+    "x": -3.8368868694175036,
+    "z": -4.018492027232424,
+    "yaw": 0.13321041835623765
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.899436063598841,
+    "z": -3.4294539630413055,
+    "yaw": -2.4713861636336265
+   }
+  ],
+  "start": {
+   "x": -5.668340523168444,
+   "z": 3.3216904326342047,
+   "theta": -1.5097367929033974
+  },
+  "lightScale": 1.137109441286884,
+  "sunAzimuthDeg": 49.31704513030127
+ },
+ "photo-board-decoy:2": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.266432129964232,
+    "z": -0.24935273854061962,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.3423563112271952,
+    "z": -4.3,
+    "yaw": 0.24579692362466515
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.2631369616370645,
+    "z": -4.3,
+    "yaw": 0.18413695674811886
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.7282220292836428,
+    "z": 4.2,
+    "yaw": -2.1380691884437066
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8492474302649498,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "board-w",
+    "kind": "picture-decoy",
+    "label": "life-size photo board of a potted plant",
+    "model": {
+     "type": "board",
+     "ofAsset": "plant",
+     "width": 0.89,
+     "height": 1.19
+    },
+    "x": -3.516441282629967,
+    "z": -4.06023168200627,
+    "yaw": -0.3406005863453695
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.197905692085624,
+    "z": -3.446536134323105,
+    "yaw": 1.7139208541745221
+   }
+  ],
+  "start": {
+   "x": -5.559006105549633,
+   "z": 3.5124639485031364,
+   "theta": -1.6016599683005601
+  },
+  "lightScale": 0.8088786371517926,
+  "sunAzimuthDeg": 46.04650347493589
+ },
+ "photo-board-decoy:17": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.3078434923663735,
+    "z": -0.39520281385630374,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.228688271297142,
+    "z": -4.3,
+    "yaw": 0.010199891898819924
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.25978930843994,
+    "z": -4.3,
+    "yaw": 0.19968766608996297
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.7319632349535823,
+    "z": 4.2,
+    "yaw": -2.584961631513459
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.020160988997668,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "board-w",
+    "kind": "picture-decoy",
+    "label": "life-size photo board of a potted plant",
+    "model": {
+     "type": "board",
+     "ofAsset": "plant",
+     "width": 0.89,
+     "height": 1.19
+    },
+    "x": -3.5391460679471494,
+    "z": -4.069823900354095,
+    "yaw": 0.296101851910657
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.719742665905506,
+    "z": -3.4255430058576164,
+    "yaw": 1.664303518110458
+   }
+  ],
+  "start": {
+   "x": -5.737204959616065,
+   "z": 3.2492530472576617,
+   "theta": -1.679916394440537
+  },
+  "lightScale": 1.0332925809081643,
+  "sunAzimuthDeg": 30.548331460449845
+ },
+ "photo-board-decoy:42": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.348638766538351,
+    "z": -0.385922122001648,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.317165946844034,
+    "z": -4.3,
+    "yaw": -0.05393247004671445
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.342182549298741,
+    "z": -4.3,
+    "yaw": -0.0568721416310736
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.42531524989754,
+    "z": 4.2,
+    "yaw": -2.9378518230121173
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.83036954049021,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "board-w",
+    "kind": "picture-decoy",
+    "label": "life-size photo board of a potted plant",
+    "model": {
+     "type": "board",
+     "ofAsset": "plant",
+     "width": 0.89,
+     "height": 1.19
+    },
+    "x": -3.440248210495338,
+    "z": -3.973641353589483,
+    "yaw": -0.03208956514935169
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.028016077075154,
+    "z": -3.5508685435634106,
+    "yaw": 1.6154233947428338
+   }
+  ],
+  "start": {
+   "x": -5.519920420646667,
+   "z": 3.349014292191714,
+   "theta": -1.7001806986139545
+  },
+  "lightScale": 0.8538415383431129,
+  "sunAzimuthDeg": 31.444897879846394
+ },
+ "photo-board-decoy:123": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.346350713609717,
+    "z": -0.3170287017710507,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.2557989892782646,
+    "z": -4.3,
+    "yaw": 0.10996877648094472
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.30845577721484,
+    "z": -4.3,
+    "yaw": -0.22202950167709318
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.4957297022454443,
+    "z": 4.2,
+    "yaw": 0.14214955831110698
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.151836627069861,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "board-w",
+    "kind": "picture-decoy",
+    "label": "life-size photo board of a potted plant",
+    "model": {
+     "type": "board",
+     "ofAsset": "plant",
+     "width": 0.89,
+     "height": 1.19
+    },
+    "x": -3.7205870287492875,
+    "z": -3.9459502961020916,
+    "yaw": -0.07676419727789326
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.624509068904445,
+    "z": -3.5970330231823024,
+    "yaw": -2.283600650550396
+   }
+  ],
+  "start": {
+   "x": -5.437841458432376,
+   "z": 3.3221908803097904,
+   "theta": -1.434156730364072
+  },
+  "lightScale": 0.8803326051682234,
+  "sunAzimuthDeg": 22.846149692777544
+ },
+ "photo-board-decoy:1001": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.323400109889917,
+    "z": -0.25657598916441204,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.1124920755159113,
+    "z": -4.3,
+    "yaw": 0.06734756220295918
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.295327664259821,
+    "z": -4.3,
+    "yaw": -0.20156700721396903
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.5820503324270248,
+    "z": 4.2,
+    "yaw": -1.0743963411258477
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8284268433228135,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "board-w",
+    "kind": "picture-decoy",
+    "label": "life-size photo board of a potted plant",
+    "model": {
+     "type": "board",
+     "ofAsset": "plant",
+     "width": 0.89,
+     "height": 1.19
+    },
+    "x": -3.740777336712927,
+    "z": -3.8513327973429115,
+    "yaw": 0.2937284979804632
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.972356334049255,
+    "z": -3.3235294891055673,
+    "yaw": -3.058501885188628
+   }
+  ],
+  "start": {
+   "x": -5.649432886391878,
+   "z": 3.4682392643764612,
+   "theta": -1.5292969142260424
+  },
+  "lightScale": 0.9935901386081241,
+  "sunAzimuthDeg": 39.03700338443741
+ },
+ "photo-board-decoy:1020": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.293347503244877,
+    "z": -0.06433119177818297,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.092366225225851,
+    "z": -4.3,
+    "yaw": 0.09003182083052635
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.18519005253911,
+    "z": -4.3,
+    "yaw": 0.17137878893064773
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.7146592225879433,
+    "z": 4.2,
+    "yaw": 2.0361552623138968
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.9249489062465728,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "board-w",
+    "kind": "picture-decoy",
+    "label": "life-size photo board of a potted plant",
+    "model": {
+     "type": "board",
+     "ofAsset": "plant",
+     "width": 0.89,
+     "height": 1.19
+    },
+    "x": -3.847079714480788,
+    "z": -3.8957844035467133,
+    "yaw": -0.16566452838685483
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.117033254448325,
+    "z": -3.1523997222073374,
+    "yaw": -0.14722445623811886
+   }
+  ],
+  "start": {
+   "x": -5.524362864904106,
+   "z": 3.488932415563613,
+   "theta": -1.656549311647428
+  },
+  "lightScale": 1.1076557734399102,
+  "sunAzimuthDeg": 62.38625051220879
+ },
+ "lookalike-3d:0": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.29002891741693,
+    "z": -0.3459693747572601,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.0564368935069073,
+    "z": -4.3,
+    "yaw": 0.14522191449278854
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.329201682284474,
+    "z": -4.3,
+    "yaw": -0.1479297979231931
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.6617039542645218,
+    "z": 4.2,
+    "yaw": -1.9763812122562128
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.079083601385355,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "vase",
+    "kind": "lookalike",
+    "label": "vase with flowers",
+    "model": {
+     "type": "asset",
+     "assetId": "vaseFlowers"
+    },
+    "x": -3.258511142898351,
+    "z": -4.1,
+    "yaw": 0.34646673326155364
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.615392567776144,
+    "z": -3.533489724295214,
+    "yaw": -2.699731269180971
+   }
+  ],
+  "start": {
+   "x": -5.715620419196784,
+   "z": 3.485525915119797,
+   "theta": -1.6267722598597305
+  },
+  "lightScale": 1.049712511652615,
+  "sunAzimuthDeg": 59.867643581237644
+ },
+ "lookalike-3d:1": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.2900935866637155,
+    "z": -0.1959537726826966,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.196872263774276,
+    "z": -4.3,
+    "yaw": 0.03992794491155355
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.16479618656449,
+    "z": -4.3,
+    "yaw": 0.1324218061549931
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.6625854106619955,
+    "z": 4.2,
+    "yaw": 2.496628566395308
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8139728587120771,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "vase",
+    "kind": "lookalike",
+    "label": "vase with flowers",
+    "model": {
+     "type": "asset",
+     "assetId": "vaseFlowers"
+    },
+    "x": -3.292706188233569,
+    "z": -4.1,
+    "yaw": 2.3962573634518245
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.105748995346949,
+    "z": -3.1762333776336162,
+    "yaw": -1.4606824098225535
+   }
+  ],
+  "start": {
+   "x": -5.647934168577194,
+   "z": 3.5973655774258075,
+   "theta": -1.554844412129177
+  },
+  "lightScale": 1.0956516444333828,
+  "sunAzimuthDeg": 58.894761726260185
+ },
+ "lookalike-3d:2": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.266068547894247,
+    "z": -0.266045767813921,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.3467344485223296,
+    "z": -4.3,
+    "yaw": 0.1746664654412851
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.212184412661008,
+    "z": -4.3,
+    "yaw": -0.05763127530156187
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.6524163198657336,
+    "z": 4.2,
+    "yaw": -2.8061270642843286
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.1648518128320573,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "vase",
+    "kind": "lookalike",
+    "label": "vase with flowers",
+    "model": {
+     "type": "asset",
+     "assetId": "vaseFlowers"
+    },
+    "x": -3.293112183455378,
+    "z": -4.1,
+    "yaw": -1.9605535870292343
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.957934209890664,
+    "z": -3.303801367804408,
+    "yaw": -0.5903646855959663
+   }
+  ],
+  "start": {
+   "x": -5.521169572137296,
+   "z": 3.468046602513641,
+   "theta": -1.447099044051323
+  },
+  "lightScale": 1.0765930281952023,
+  "sunAzimuthDeg": 26.591466593090445
+ },
+ "lookalike-3d:17": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.3077805717941375,
+    "z": -0.24862694768235089,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.336595359328203,
+    "z": -4.3,
+    "yaw": -0.13378264875954987
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.2731372138950974,
+    "z": -4.3,
+    "yaw": 0.07167151953218553
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.639820027165115,
+    "z": 4.2,
+    "yaw": -0.2897650891247663
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8492220188491046,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "vase",
+    "kind": "lookalike",
+    "label": "vase with flowers",
+    "model": {
+     "type": "asset",
+     "assetId": "vaseFlowers"
+    },
+    "x": -3.4006259960122405,
+    "z": -4.1,
+    "yaw": 1.0536092977991993
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.793516084318981,
+    "z": -3.1670995593536646,
+    "yaw": -0.4431035086511397
+   }
+  ],
+  "start": {
+   "x": -5.624454047810286,
+   "z": 3.3556390563957392,
+   "theta": -1.3988276266736672
+  },
+  "lightScale": 0.9232047874014825,
+  "sunAzimuthDeg": 60.627180819865316
+ },
+ "lookalike-3d:42": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.3313941400032485,
+    "z": -0.135152748785913,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.3384314240887765,
+    "z": -4.3,
+    "yaw": 0.06988425361871964
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.338366632489487,
+    "z": -4.3,
+    "yaw": 0.23603649499887353
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.6488100962713363,
+    "z": 4.2,
+    "yaw": -3.132786091561136
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8416903283447028,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "vase",
+    "kind": "lookalike",
+    "label": "vase with flowers",
+    "model": {
+     "type": "asset",
+     "assetId": "vaseFlowers"
+    },
+    "x": -3.197669162927195,
+    "z": -4.1,
+    "yaw": -1.8757968665373346
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.000428770016879,
+    "z": -3.1926895102951676,
+    "yaw": 0.5279877429345006
+   }
+  ],
+  "start": {
+   "x": -5.614980610646307,
+   "z": 3.5912416242994367,
+   "theta": -1.6223569300082814
+  },
+  "lightScale": 0.8560398777830415,
+  "sunAzimuthDeg": 58.262771791778505
+ },
+ "lookalike-3d:123": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.2864776211557905,
+    "z": -0.2977986694313586,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.218578836019151,
+    "z": -4.3,
+    "yaw": 0.18106254541035577
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.1931384135037657,
+    "z": -4.3,
+    "yaw": 0.029672767509870468
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.5228146792389454,
+    "z": 4.2,
+    "yaw": 1.1348311927428547
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.969813103042543,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "vase",
+    "kind": "lookalike",
+    "label": "vase with flowers",
+    "model": {
+     "type": "asset",
+     "assetId": "vaseFlowers"
+    },
+    "x": -3.424903642805293,
+    "z": -4.1,
+    "yaw": 2.022396087680473
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 4.728983920067549,
+    "z": -3.687570339720696,
+    "yaw": 1.933910166640974
+   }
+  ],
+  "start": {
+   "x": -5.443377893231808,
+   "z": 3.289016593247652,
+   "theta": -1.525431268365741
+  },
+  "lightScale": 0.8262333589256742,
+  "sunAzimuthDeg": 62.405164043884724
+ },
+ "lookalike-3d:1001": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.283278974192217,
+    "z": -0.14180135857313875,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.263134954776615,
+    "z": -4.3,
+    "yaw": -0.01551979824855873
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.2845469667809084,
+    "z": -4.3,
+    "yaw": 0.17511498295812572
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.699469037912786,
+    "z": 4.2,
+    "yaw": -0.32059273756292006
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -2.191330291889608,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "vase",
+    "kind": "lookalike",
+    "label": "vase with flowers",
+    "model": {
+     "type": "asset",
+     "assetId": "vaseFlowers"
+    },
+    "x": -3.2403115791268644,
+    "z": -4.1,
+    "yaw": -1.071530221283309
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.153185481438413,
+    "z": -3.5970550840720534,
+    "yaw": -1.2697852758363941
+   }
+  ],
+  "start": {
+   "x": -5.627408695872873,
+   "z": 3.4058193868026136,
+   "theta": -1.5082461047378708
+  },
+  "lightScale": 0.8229076956165955,
+  "sunAzimuthDeg": 34.46159591432661
+ },
+ "lookalike-3d:1020": {
+  "objects": [
+   {
+    "id": "sofa",
+    "kind": "furniture",
+    "label": "couch",
+    "model": {
+     "type": "asset",
+     "assetId": "velvetSofa"
+    },
+    "x": -6.324794255220331,
+    "z": -0.3079991372302175,
+    "yaw": 1.5707963267948966
+   },
+   {
+    "id": "chair-a",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "sheenChair"
+    },
+    "x": 2.2648686500266195,
+    "z": -4.3,
+    "yaw": 0.1860723127615604
+   },
+   {
+    "id": "chair-b",
+    "kind": "furniture",
+    "label": "chair",
+    "model": {
+     "type": "asset",
+     "assetId": "damaskChair"
+    },
+    "x": 3.163855734444223,
+    "z": -4.3,
+    "yaw": -0.11631664403415568
+   },
+   {
+    "id": "pouf",
+    "kind": "furniture",
+    "label": "pouf",
+    "model": {
+     "type": "asset",
+     "assetId": "pouf"
+    },
+    "x": 2.683867355063558,
+    "z": 4.2,
+    "yaw": -0.11655807988902334
+   },
+   {
+    "id": "crate-w",
+    "kind": "obstacle",
+    "label": "crate",
+    "model": {
+     "type": "box",
+     "w": 0.7,
+     "h": 0.75,
+     "d": 0.55,
+     "color": 9075302
+    },
+    "x": -1.8640998707152903,
+    "z": 4.2,
+    "yaw": 0
+   },
+   {
+    "id": "vase",
+    "kind": "lookalike",
+    "label": "vase with flowers",
+    "model": {
+     "type": "asset",
+     "assetId": "vaseFlowers"
+    },
+    "x": -3.2959037450142206,
+    "z": -4.1,
+    "yaw": -3.0728592031371207
+   },
+   {
+    "id": "plant",
+    "kind": "target",
+    "label": "potted plant (3-D)",
+    "model": {
+     "type": "asset",
+     "assetId": "plant"
+    },
+    "x": 5.050433367164806,
+    "z": -3.53178928187117,
+    "yaw": 3.1224174738837336
+   }
+  ],
+  "start": {
+   "x": -5.509343667887151,
+   "z": 3.387865670211613,
+   "theta": -1.6779009272450638
+  },
+  "lightScale": 0.8784394630813039,
+  "sunAzimuthDeg": 67.13724810862914
+ }
+}

@@ -1,0 +1,245 @@
+:root {
+  color-scheme: dark;
+  /* Graphite / mineral surfaces. Colour encodes meaning only; every status also has a text label. */
+  --bg: #0b0d10;
+  --panel: #111419;
+  --panel-2: #161a20;
+  --panel-3: #1c2128;
+  --line: #232830;
+  --line-strong: #323943;
+  --text: #e9ebee;
+  --muted: #a3abb5;
+  --faint: #7c858f;
+  --ice: #e6f3fa;
+  /* sensing and navigation */
+  --cyan: #4cc3f2;
+  --cyan-dim: rgba(76, 195, 242, 0.14);
+  /* model predictions and verification in progress */
+  --amber: #f2a93b;
+  --amber-dim: rgba(242, 169, 59, 0.14);
+  /* terminal outcomes only */
+  --green: #3ecf8e;
+  --green-dim: rgba(62, 207, 142, 0.14);
+  --red: #f47272;
+  --red-dim: rgba(244, 114, 114, 0.14);
+  /* verifier evidence labels */
+  --violet: #c3b6f7;
+
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --r-ctl: 4px;
+  --r-panel: 6px;
+  --ctl-h: 32px;
+  --header-h: 48px;
+
+  --s7: 48px;
+  --s8: 64px;
+  --t-fast: 120ms;
+  --t-med: 240ms;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+code,
+.mono {
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 2px;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Shared control styles */
+.btn {
+  transition: background-color var(--t-fast) var(--ease), border-color var(--t-fast) var(--ease);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s2);
+  height: var(--ctl-h);
+  padding: 0 var(--s3);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-ctl);
+  background: var(--panel-2);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.btn:hover:not(:disabled) {
+  background: var(--panel-3);
+  border-color: #47505a;
+  text-decoration: none;
+}
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.btn-primary {
+  background: var(--ice);
+  border-color: var(--ice);
+  color: #0b1218;
+  font-weight: 600;
+}
+.btn-primary:hover:not(:disabled) {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+.btn-ghost {
+  background: transparent;
+  border-color: transparent;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s1);
+}
+.field > label,
+.label {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.input,
+.select {
+  height: var(--ctl-h);
+  padding: 0 var(--s2);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-ctl);
+  background: var(--bg);
+  color: var(--text);
+  min-width: 0;
+}
+.select {
+  appearance: none;
+  padding-right: 28px;
+  background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+  background-position: calc(100% - 14px) 50%, calc(100% - 9px) 50%;
+  background-size: 5px 5px;
+  background-repeat: no-repeat;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.provenance {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.provenance::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 1px;
+  background: currentColor;
+}
+.prov-model {
+  color: var(--amber);
+}
+.prov-sensor {
+  color: var(--cyan);
+}
+.prov-verifier {
+  color: var(--violet);
+}
+.prov-eval {
+  color: var(--green);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+@media (pointer: coarse) {
+  :root {
+    --ctl-h: 36px;
+  }
+}

@@ -1,0 +1,178 @@
+.map {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
+}
+.map svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: var(--r-panel);
+  background: #0d1014;
+}
+.floor {
+  fill: #12161b;
+}
+.wall {
+  fill: #48515c;
+}
+.path {
+  fill: none;
+  stroke: var(--cyan);
+  stroke-width: 0.07;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+}
+.ray {
+  stroke: var(--amber);
+  stroke-width: 0.035;
+  stroke-dasharray: 0.12 0.1;
+  opacity: 0.75;
+}
+.ray[data-detected="false"] {
+  stroke: var(--muted);
+  opacity: 0.55;
+}
+.viewpoint {
+  fill: var(--amber);
+  stroke: #0d1014;
+  stroke-width: 0.04;
+}
+.viewpoint[data-detected="false"] {
+  fill: #0d1014;
+  stroke: var(--muted);
+  stroke-width: 0.05;
+  stroke-dasharray: 0.08 0.06;
+}
+.start {
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 0.05;
+}
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.34px;
+  fill: var(--muted);
+}
+.cand {
+  color: var(--amber);
+}
+.cand[data-status="CONFIRMED"] {
+  color: var(--green);
+}
+.cand[data-status="REJECTED"] {
+  color: var(--red);
+}
+.cand rect {
+  fill: currentColor;
+}
+.candRing {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 0.05;
+}
+.candLabel {
+  font-family: var(--font-mono);
+  font-size: 0.36px;
+  font-weight: 700;
+  fill: currentColor;
+}
+.arrival circle {
+  fill: var(--ice);
+}
+.arrival text {
+  fill: var(--ice);
+}
+
+/* One draw-on of the path when the map first scrolls into view; markers fade in after it. */
+.map[data-inview="false"] .path {
+  stroke-dashoffset: 1;
+}
+.map[data-inview="false"] .viewpoint,
+.map[data-inview="false"] .ray,
+.map[data-inview="false"] .cand,
+.map[data-inview="false"] .arrival {
+  opacity: 0;
+}
+.map[data-inview="true"] .path {
+  animation: draw 1800ms var(--ease) both;
+}
+.map[data-inview="true"] .viewpoint,
+.map[data-inview="true"] .ray,
+.map[data-inview="true"] .cand,
+.map[data-inview="true"] .arrival {
+  animation: fade 500ms var(--ease) 1500ms both;
+}
+@keyframes draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.legend i {
+  display: inline-block;
+}
+.kPath {
+  width: 16px;
+  border-top: 2px solid var(--cyan);
+}
+.kView {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--amber);
+}
+.kMiss {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1.5px dashed var(--muted);
+}
+.kWall {
+  width: 14px;
+  height: 5px;
+  background: #48515c;
+}
+.caption {
+  font-size: 12.5px;
+  color: var(--faint);
+  line-height: 1.5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .map .path {
+    stroke-dashoffset: 0 !important;
+    animation: none !important;
+  }
+  .map .viewpoint,
+  .map .ray,
+  .map .cand,
+  .map .arrival {
+    opacity: 1 !important;
+    animation: none !important;
+  }
+}
