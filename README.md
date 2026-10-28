@@ -5,6 +5,14 @@
 SureStop is a browser-based robot simulation in which a robot must check, with depth evidence from
 several viewpoints, that the object it found really is its target before it reports arrival.
 
+**Live demo:** [Open SureStop in your browser](https://surestop-robot-verification-release.vercel.app/)
+
+- **What it is:** a software simulation that runs entirely in your browser (a desktop browser with
+  WebGL2). It does not control a physical robot.
+- **Open provenance warning:** the hosted build is reported to show a dirty source tree
+  (`sourceDirty: true`), so it is not yet shown to be built exactly from this repository's commit.
+  See [`BUILD_STATUS.md`](BUILD_STATUS.md#deployment).
+
 - **The problem:** an object detector that says "potted plant" is not proof that the robot has
   reached a real potted plant. A photo, a screen or a look-alike can produce the same label.
 - **The approach:** treat a detection as a *candidate*. Collect depth evidence from distinct
@@ -212,7 +220,9 @@ viewpoints. The plant is CONFIRMED.
 
 ![The photo board is rejected as flat and the plant confirmed](docs/demo/rehearsal/C-identity-seed17-board-rejected.png)
 
-There is no public deployment of this release yet, so no live-demo link is given.
+These screenshots were taken on a local production build of this release, not on the hosted demo.
+The hosted demo is linked at the top of this page; its status is in
+[`BUILD_STATUS.md`](BUILD_STATUS.md#deployment).
 
 ## Getting started
 

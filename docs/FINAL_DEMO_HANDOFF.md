@@ -224,3 +224,27 @@ npm start              # http://localhost:3000
 
 **Not rehearsed:** a browser without WebGL2 (the console shows an "Unsupported browser" box by
 design), Pause/Resume and Abort, and slow machines.
+
+## Post-handoff update (2026-10-28)
+
+This sheet was frozen on 2026-10-27, before publication and deployment. Its text above is kept
+unchanged. Since then:
+
+- **GitHub.** The release is published at
+  https://github.com/adithyad-cs/surestop-robot-verification-release (commit `b4dcc25`). The §8
+  item "GitHub publication" in *Do not claim* is therefore out of date: publication is a fact.
+- **Hosted demo.** It is at https://surestop-robot-verification-release.vercel.app/. To use it, put
+  that base URL in front of the §3 paths instead of `http://localhost:3000`.
+  - **Team-reported:** the team reported live QA on 27 October 2026, in which run A falsely arrived
+    at the vase and run B withheld it and reached the real plant.
+  - **Not independently verified:** the 2026-10-28 documentation update could not reach the host
+    from its environment.
+- **Still do not claim** that the hosted build is verified to match the commit. Its build
+  provenance reports `sourceDirty: true`, with an unknown cause (see `BUILD_STATUS.md`,
+  "Deployment").
+  - Say instead: "a hosted demo is available; its build provenance has an open warning."
+- **Before presenting on the hosted demo,** check the method, scenario and layout id in the setup
+  panel, as in §3.
+- **Recovery (§9):** "Check that the server is running (`npm start`)" applies only to a local
+  build. On the hosted demo, reload the page; if the model still cannot be fetched, switch to a
+  local production build.

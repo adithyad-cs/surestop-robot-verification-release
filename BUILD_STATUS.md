@@ -2,7 +2,11 @@
 
 ## Release
 
-**Status:** release candidate for the Hack in Hills ’26 submission. **Not deployed.**
+**Status:** release candidate for the Hack in Hills ’26 submission.
+
+**Deployment:** a hosted demo is at https://surestop-robot-verification-release.vercel.app/. It
+carries an unresolved provenance warning (`sourceDirty: true`); see [Deployment](#deployment).
+At publication on 2026-10-27 this line read "**Not deployed.**"
 
 **Source:** a clean snapshot of the final application, development commit
 `70ab7dee74921a956c0ee301aebce363df440f23`. That commit includes:
@@ -25,6 +29,46 @@
   `git diff --check` passes.
 - **No change to application behaviour, verifier rules, thresholds, models, tests or recorded
   data.**
+
+## Deployment
+
+**Intended hosted demo:** https://surestop-robot-verification-release.vercel.app/ (Vercel). The
+repository holds no deployment configuration.
+
+### Chronology
+
+| Date (2026) | Status | Source |
+|---|---|---|
+| 27 Oct, at publication of `b4dcc25` | Not deployed | This file, as published |
+| 27 Oct, later | Deployed to the URL above. The team's live QA reported that run A (`surestop`) falsely arrives at the vase, and run B (`surestop-identity`) withholds the vase and reaches the real plant | **Team-reported.** The team's QA report is not part of this repository; it is not independent QA |
+| 28 Oct | **NOT INDEPENDENTLY VERIFIED IN THIS ENVIRONMENT.** The documentation update session could not reach the host: its network policy denied the connection | This update |
+
+### Open warning: `sourceDirty: true`
+
+The hosted bundle reportedly shows `sourceDirty: true` in its build provenance (team-reported).
+
+**What the flag means** (`scripts/build-meta.mjs`):
+
+- It is computed when `next.config.ts` loads during the build.
+- It is `true` when `git status --porcelain --untracked-files=all` in the build's checkout lists
+  anything: a modified tracked file, or an untracked file that `.gitignore` does not exclude.
+- Such a build's `buildId` reads `<commit>-dirty-<fingerprint>`.
+- The flag does not by itself show that the deployed code differs from the commit, nor that it does
+  not.
+
+**Cause: unknown.** It has not been established which files made the tree dirty. Determining it
+needs one of:
+
+- the Vercel build log, with `git status --porcelain` from the build checkout;
+- the hosted bundle's full build provenance (`sourceCommit`, `buildId`, `dirtyFingerprint`);
+- a controlled rebuild of `b4dcc25` on the same platform.
+
+**Until then:**
+
+- **Do not claim** that the hosted artifact is reproducibly built from
+  `b4dcc250d3369851c3be4b297a91202ac641e524`.
+- **Rely on** the local checks below, which apply to this repository's tree, not to the hosted
+  build.
 
 ### Checks on the release snapshot
 
@@ -122,3 +166,4 @@ These were measured on development builds and are kept for context only.
 - The map prior contains the candidates, and the route was written knowing the object slots.
 - SureStop was debugged on calibration seeds; the baselines only had a threshold sweep.
 - The scientific evaluation gate remains **BLOCKED** (see the README, "Limitations and non-goals").
+- The hosted demo's build provenance is unresolved (`sourceDirty: true`; see [Deployment](#deployment)).
